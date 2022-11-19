@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "palamod:blocks/titane_block",
+    "top": "palamod:blocks/titane_block",
+    "side": "palamod:blocks/titane_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "palamod:blocks/judeecercis_door_down_beta",
+    "top": "palamod:blocks/judeecercis_door_up_beta"
+  }
+}

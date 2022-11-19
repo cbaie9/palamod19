@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "palamod:blocks/sap.jacaranda",
+    "particle": "palamod:blocks/sap.jacaranda"
+  },
+  "render_type": "solid"
+}

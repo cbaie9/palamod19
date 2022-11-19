@@ -1,0 +1,32 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Fakepaladiumore"
+      },
+      {
+        "value": "CUSTOM:Trxiumore"
+      },
+      {
+        "value": "CUSTOM:PaladiumOre"
+      },
+      {
+        "value": "CUSTOM:TitaneOre"
+      },
+      {
+        "value": "CUSTOM:AmethysteOre"
+      },
+      {
+        "value": "CUSTOM:FindiumOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "tagores",
+    "namespace": "forge"
+  }
+}

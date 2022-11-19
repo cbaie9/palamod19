@@ -1,0 +1,490 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 220,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "end_stone.png",
+          "use1Xscale": false,
+          "name": "end_stone.png",
+          "x": 19,
+          "y": 17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clay.png",
+          "use1Xscale": false,
+          "name": "clay.png",
+          "x": 132,
+          "y": 16
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "paladium_ore.png",
+          "use1Xscale": false,
+          "name": "paladium_ore.png",
+          "x": 19,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "planks_oak.png",
+          "use1Xscale": false,
+          "name": "planks_oak.png",
+          "x": 19,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ores :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ores :",
+          "x": 54,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Endstone",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Endstone",
+          "x": 53,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Planks :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Planks :",
+          "x": 52,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Clay",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Clay",
+          "x": 167,
+          "y": 16
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cobblestone.png",
+          "use1Xscale": false,
+          "name": "cobblestone.png",
+          "x": 19,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cobblestone",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cobblestone",
+          "x": 51,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest_ico32.png",
+          "use1Xscale": false,
+          "name": "chest_ico32.png",
+          "x": 19,
+          "y": 145
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chests",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Chests",
+          "x": 49,
+          "y": 147
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dirt.png",
+          "use1Xscale": false,
+          "name": "dirt.png",
+          "x": 19,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dirt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "dirt",
+          "x": 51,
+          "y": 176
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "erable_log.png",
+          "use1Xscale": false,
+          "name": "erable_log.png",
+          "x": 132,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Logs",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Logs",
+          "x": 165,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wool_colored_white.png",
+          "use1Xscale": false,
+          "name": "wool_colored_white.png",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Wool",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Wool",
+          "x": 167,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bedrock.png",
+          "use1Xscale": false,
+          "name": "bedrock.png",
+          "x": 132,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bedrock",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bedrock",
+          "x": 165,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "air_scre.png",
+          "use1Xscale": false,
+          "name": "air_scre.png",
+          "x": 132,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shulker_screen.png",
+          "use1Xscale": false,
+          "name": "shulker_screen.png",
+          "x": 132,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_ores>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_ores>",
+          "x": 53,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:analy_dirt>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:analy_dirt>",
+          "x": 51,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_stone>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_stone>",
+          "x": 282,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone32.png",
+          "use1Xscale": false,
+          "name": "stone32.png",
+          "x": 245,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_endstone>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_endstone>",
+          "x": 57,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_air>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_air>",
+          "x": 166,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_shulker>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_shulker>",
+          "x": 166,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_chest>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_chest>",
+          "x": 48,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_wool>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_wool>",
+          "x": 167,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_bedrock>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_bedrock>",
+          "x": 166,
+          "y": 122
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_cobble>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_cobble>",
+          "x": 53,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_logs>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_logs>",
+          "x": 167,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_planks>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_planks>",
+          "x": 52,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Air :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Air :",
+          "x": 165,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Stone :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Stone :",
+          "x": 281,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shulker :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Shulker :",
+          "x": 165,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:analy_clay>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:analy_clay>",
+          "x": 165,
+          "y": 32
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

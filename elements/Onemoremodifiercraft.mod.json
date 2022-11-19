@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Compressedpaladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Compressedpaladium"
+      },
+      {
+        "value": "CUSTOM:Paladiumhammer"
+      },
+      {
+        "value": "CUSTOM:Compressedpaladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Compressedpaladium"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Onemoremodifier"
+    },
+    "name": "onemoremodifiercraft",
+    "namespace": "mod"
+  }
+}

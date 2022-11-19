@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F",
+    "keyBindingName": "Factionblinding",
+    "keyBindingCategoryKey": "multiplayer",
+    "onKeyPressed": {
+      "name": "Openfhgui"
+    }
+  }
+}

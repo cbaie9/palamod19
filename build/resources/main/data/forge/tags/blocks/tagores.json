@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "palamod:findium_ore",
+    "palamod:paladium_ore",
+    "palamod:titane_ore",
+    "palamod:trxiumore",
+    "palamod:amethyste_ore",
+    "palamod:fakepaladiumore"
+  ]
+}

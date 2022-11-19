@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "palamod:items/obsidianitemdoor"
+  },
+  "render_type": "solid"
+}

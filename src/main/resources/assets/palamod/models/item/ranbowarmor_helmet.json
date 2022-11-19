@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "palamod:items/ranbow_armor_head_ani"
+  }
+}

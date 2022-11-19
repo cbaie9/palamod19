@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "palamod:blocks/jacaranda",
+    "particle": "palamod:blocks/jacaranda"
+  },
+  "render_type": "solid"
+}

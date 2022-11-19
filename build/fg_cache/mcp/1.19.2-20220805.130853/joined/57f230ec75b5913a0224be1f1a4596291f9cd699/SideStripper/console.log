@@ -1,0 +1,9 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\AccessTransformer\output.jar", "--output", "C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\SideStripper\output.jar", "--data", "C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\SideStripper\string_data.sas"
+Classpath:   C:\Users\cleme\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\AccessTransformer\output.jar
+Output: C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\SideStripper\output.jar
+Data:   C:\Users\cleme\MCreatorWorkspaces\Pala19fullboot\build\fg_cache\mcp\1.19.2-20220805.130853\joined\57f230ec75b5913a0224be1f1a4596291f9cd699\SideStripper\string_data.sas

@@ -1,0 +1,7 @@
+{
+  "_fv": 34,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_open_gui\"><field name=\"guiname\">Factioncreategui</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><next><block type=\"entity_nbt_text_set\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">temp_fact_name</field></block></value><value name=\"tagValue\"><block type=\"get_command_parameter_string\"><field name=\"param\">fac_name</field></block></value></block></next></block></next></block><block type=\"text\" x=\"647\" y=\"215\"><field name=\"TEXT\">Text</field></block><block type=\"text\" x=\"573\" y=\"322\"><field name=\"TEXT\">tagValue</field></block></xml>"
+  }
+}

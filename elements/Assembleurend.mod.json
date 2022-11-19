@@ -1,0 +1,89 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The assembleur will deleted in the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The assembleur will deleted in the",
+          "x": 122,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "update You can trade it for a ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "update You can trade it for a ",
+          "x": 123,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Collectr grinder",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Collectr grinder",
+          "x": 124,
+          "y": 54
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "trade",
+          "onClick": {
+            "name": "Assendt"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "trade",
+          "x": 196,
+          "y": 124
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "access",
+          "onClick": {
+            "name": "Openassemtable"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "access",
+          "x": 194,
+          "y": 181
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

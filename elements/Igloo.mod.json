@@ -1,0 +1,32 @@
+{
+  "_fv": 34,
+  "_type": "structure",
+  "definition": {
+    "structure": "igloo",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "CUSTOM:Frozenforest"
+      },
+      {
+        "value": "frozen_peaks"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

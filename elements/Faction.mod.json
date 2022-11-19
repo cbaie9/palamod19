@@ -1,0 +1,9 @@
+{
+  "_fv": 34,
+  "_type": "command",
+  "definition": {
+    "commandName": "faction",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">create</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">fac_name</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Factioncreate</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">gui</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Openfhgui</field></block></statement><next><block type=\"literal\"><field name=\"name\">disband</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Delfaction</field></block></statement><next><block type=\"literal\"><field name=\"name\">leave</field></block></next></block></next></block></next></block></next></block><block type=\"string\" x=\"805\" y=\"394\"><field name=\"type\">word</field><field name=\"name\">name</field></block><block type=\"message\" x=\"331\" y=\"492\"><field name=\"name\">name</field></block></xml>"
+  }
+}

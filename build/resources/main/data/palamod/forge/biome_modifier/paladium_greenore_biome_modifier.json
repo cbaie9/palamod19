@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "river",
+  "features": "palamod:paladium_greenore",
+  "step": "underground_ores"
+}

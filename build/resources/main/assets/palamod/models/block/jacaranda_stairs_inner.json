@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "palamod:blocks/jacaranda",
+    "top": "palamod:blocks/jacaranda",
+    "side": "palamod:blocks/jacaranda"
+  },
+  "render_type": "solid"
+}

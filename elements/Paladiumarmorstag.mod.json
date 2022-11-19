@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PaladiumArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:PaladiumArmor.body"
+      },
+      {
+        "value": "CUSTOM:PaladiumArmor.legs"
+      },
+      {
+        "value": "CUSTOM:PaladiumArmor.boots"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom1.helmet"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom1.body"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom1.legs"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom1.boots"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom2.helmet"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom2.body"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom2.legs"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom2.boots"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom3.helmet"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom3.body"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom3.legs"
+      },
+      {
+        "value": "CUSTOM:Paladiumarmorcustom3.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "paladiumarmorstag",
+    "namespace": "mod"
+  }
+}

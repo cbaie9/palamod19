@@ -1,0 +1,165 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 20,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Creer un faction coûte",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Creer un faction coûte",
+          "x": 119,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100 lingot",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "100 lingot",
+          "x": 237,
+          "y": 24
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:PaladiumIngot"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Faccreateguicheckpala"
+          },
+          "onTakenFromSlot": {
+            "name": "Faccreateguicheckpala"
+          },
+          "onStackTransfer": {
+            "name": "Faccreateguicheckpala"
+          },
+          "name": "Slot #0",
+          "x": 288,
+          "y": 46
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Name of the faction",
+          "width": 120,
+          "height": 20,
+          "name": "faction_name_input_bow",
+          "x": 190,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nom",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nom",
+          "x": 168,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inserer les lingot  -)",
+          "color": {
+            "value": -16737946,
+            "falpha": 0.0
+          },
+          "name": "Inserer les lingot  -)",
+          "x": 126,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Créer",
+          "width": 51,
+          "height": 20,
+          "name": "Créer",
+          "x": 132,
+          "y": 115
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Annuler",
+          "onClick": {
+            "name": "Closeguifaccreate"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Annuler",
+          "x": 232,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "de paladium",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "de paladium",
+          "x": 119,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:faction_create_ing>",
+          "color": {
+            "value": -10027162,
+            "falpha": 0.0
+          },
+          "name": "<VAR:faction_create_ing>",
+          "x": 182,
+          "y": 91
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Faccreateguistart"
+    },
+    "onClosed": {
+      "name": "Closeguifaccreate"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

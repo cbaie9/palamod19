@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "palamod:blocks/ostrya",
+    "top": "palamod:blocks/ostrya",
+    "side": "palamod:blocks/ostrya"
+  },
+  "render_type": "solid"
+}

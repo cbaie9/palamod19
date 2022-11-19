@@ -1,0 +1,217 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 310,
+    "height": 200,
+    "inventoryOffsetX": 67,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 77,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 108,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 149,
+          "y": 189
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 187,
+          "y": 101
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 231,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dégats",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dégats",
+          "x": 274,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Pv",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Pv",
+          "x": 332,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Golem",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Golem",
+          "x": 199,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Level ",
+          "x": 184,
+          "y": 49
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Arbre de compétance",
+          "width": 124,
+          "height": 20,
+          "name": "Arbre de compétance",
+          "x": 63,
+          "y": 159
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Renommer",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Renommer",
+          "x": 171,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Whitelist",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Whitelist",
+          "x": 217,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Golem_level>",
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Golem_level>",
+          "x": 215,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Golem_pv>",
+          "color": {
+            "value": -65434,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Golem_pv>",
+          "x": 317,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "golem_blackground.png",
+          "use1Xscale": true,
+          "name": "golem_blackground.png",
+          "x": 80,
+          "y": 26
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

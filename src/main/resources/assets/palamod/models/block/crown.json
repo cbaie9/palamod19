@@ -1,0 +1,9 @@
+{
+  "parent": "palamod:custom/techo",
+  "textures": {
+    "all": "palamod:blocks/crown",
+    "particle": "palamod:blocks/crown",
+    "0": "palamod:blocks/crown"
+  },
+  "render_type": "solid"
+}

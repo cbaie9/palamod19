@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "palamod:blocks/paladium_block",
+    "top": "palamod:blocks/paladium_block",
+    "side": "palamod:blocks/paladium_block"
+  },
+  "render_type": "solid"
+}

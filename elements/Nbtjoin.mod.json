@@ -1,0 +1,7 @@
+{
+  "_fv": 34,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"65\" y=\"28\"><field name=\"trigger\">entity_joins_world</field><next><block type=\"entity_nbt_text_set\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">hfa</field></block></value><value name=\"tagValue\"><block type=\"text\"><field name=\"TEXT\">false</field></block></value></block></next></block></xml>"
+  }
+}

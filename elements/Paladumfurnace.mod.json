@@ -1,0 +1,256 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 180,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Paladium Furnace",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Paladium Furnace",
+          "x": 162,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "PFurnaceprocessv2"
+          },
+          "name": "Slot #0",
+          "x": 184,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventory",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inventory",
+          "x": 131,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgrades",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Upgrades",
+          "x": 126,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "big_slot.png",
+          "use1Xscale": true,
+          "name": "big_slot.png",
+          "x": 241,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire.png",
+          "use1Xscale": true,
+          "name": "fire.png",
+          "x": 182,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire01.png",
+          "use1Xscale": true,
+          "name": "fire01.png",
+          "x": 182,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire02.png",
+          "use1Xscale": true,
+          "name": "fire02.png",
+          "x": 185,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire03.png",
+          "use1Xscale": true,
+          "name": "fire03.png",
+          "x": 185,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire04.png",
+          "use1Xscale": true,
+          "name": "fire04.png",
+          "x": 184,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire05.png",
+          "use1Xscale": true,
+          "name": "fire05.png",
+          "x": 183,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire06.png",
+          "use1Xscale": true,
+          "name": "fire06.png",
+          "x": 184,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire07.png",
+          "use1Xscale": true,
+          "name": "fire07.png",
+          "x": 184,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire08.png",
+          "use1Xscale": true,
+          "name": "fire08.png",
+          "x": 184,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire09.png",
+          "use1Xscale": true,
+          "name": "fire09.png",
+          "x": 185,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:g_num>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:g_num>",
+          "x": 213,
+          "y": 103
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Furnaceupgrade"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #3",
+          "x": 131,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "PFurnaceprocessv2"
+          },
+          "name": "Slot #1",
+          "x": 183,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 245,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Lucky_destroy>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Lucky_destroy>",
+          "x": 216,
+          "y": 55
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

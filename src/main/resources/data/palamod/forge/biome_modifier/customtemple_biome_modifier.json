@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "palamod:customtemple",
+  "step": "surface_structures"
+}

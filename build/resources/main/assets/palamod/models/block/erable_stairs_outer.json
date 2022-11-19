@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "palamod:blocks/erable",
+    "top": "palamod:blocks/erable",
+    "side": "palamod:blocks/erable"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "sparse_jungle",
+    "jungle"
+  ],
+  "spawners": {
+    "type": "palamod:elephantlittle",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

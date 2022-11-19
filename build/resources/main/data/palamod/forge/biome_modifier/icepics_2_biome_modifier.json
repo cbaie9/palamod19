@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "palamod:frozenforest",
+  "features": "palamod:icepics_2",
+  "step": "surface_structures"
+}
