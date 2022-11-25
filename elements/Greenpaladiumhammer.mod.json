@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "green_paladium_hammer",
+    "texture": "green_paladium_hammer16",
     "customModelName": "Normal",
     "name": "Green paladium hammer",
     "specialInfo": [],

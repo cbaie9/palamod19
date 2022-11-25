@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_hammer_rnew",
+    "texture": "hammer_paladium",
     "customModelName": "Normal",
     "name": "Hammer head",
     "rarity": "COMMON",

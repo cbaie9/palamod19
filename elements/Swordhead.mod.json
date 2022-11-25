@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_sword_new",
+    "texture": "head_sword",
     "customModelName": "Normal",
     "name": "Sword head",
     "rarity": "COMMON",

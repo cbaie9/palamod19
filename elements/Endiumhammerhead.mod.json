@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "endium_hammer_head",
+    "texture": "endium_head_hammer",
     "customModelName": "Normal",
     "name": "Endium hammer head",
     "rarity": "COMMON",

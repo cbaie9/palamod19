@@ -84,6 +84,8 @@ import palamod.block.GuardianblockBlock;
 import palamod.block.GrinderframeBlock;
 import palamod.block.GrindercasingBlock;
 import palamod.block.GrinderblockBlock;
+import palamod.block.GreenpaladiumstairsBlock;
+import palamod.block.GreenpaladiumslabBlock;
 import palamod.block.FindiumstairsBlock;
 import palamod.block.FindiumslabBlock;
 import palamod.block.FindiumOreBlock;
@@ -102,6 +104,9 @@ import palamod.block.Erable_LogBlock;
 import palamod.block.Erable_LeavesBlock;
 import palamod.block.Erable_FenceGateBlock;
 import palamod.block.Erable_FenceBlock;
+import palamod.block.EndiumstairsBlock;
+import palamod.block.EndiumslabBlock;
+import palamod.block.EndiumnuggetoreBlock;
 import palamod.block.EndiumluckyblockBlock;
 import palamod.block.EndiumBlockBlock;
 import palamod.block.ElevatorwhiteBlock;
@@ -297,4 +302,9 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> CROWN = REGISTRY.register("crown", () -> new CrownBlock());
 	public static final RegistryObject<Block> FACTIONBLCK = REGISTRY.register("factionblck", () -> new FactionblckBlock());
 	public static final RegistryObject<Block> ENDIUMLUCKYBLOCK = REGISTRY.register("endiumluckyblock", () -> new EndiumluckyblockBlock());
+	public static final RegistryObject<Block> ENDIUMNUGGETORE = REGISTRY.register("endiumnuggetore", () -> new EndiumnuggetoreBlock());
+	public static final RegistryObject<Block> ENDIUMSLAB = REGISTRY.register("endiumslab", () -> new EndiumslabBlock());
+	public static final RegistryObject<Block> ENDIUMSTAIRS = REGISTRY.register("endiumstairs", () -> new EndiumstairsBlock());
+	public static final RegistryObject<Block> GREENPALADIUMSTAIRS = REGISTRY.register("greenpaladiumstairs", () -> new GreenpaladiumstairsBlock());
+	public static final RegistryObject<Block> GREENPALADIUMSLAB = REGISTRY.register("greenpaladiumslab", () -> new GreenpaladiumslabBlock());
 }

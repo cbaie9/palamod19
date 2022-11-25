@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hyperjumpstick",
+    "texture": "hyperjump_stick",
     "customModelName": "Normal",
     "name": "Hyper jump stick",
     "specialInfo": [],

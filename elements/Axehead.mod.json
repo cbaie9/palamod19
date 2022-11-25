@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_axe_rnew",
+    "texture": "head_axe",
     "customModelName": "Normal",
     "name": "Axe head",
     "rarity": "COMMON",

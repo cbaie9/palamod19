@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/stickofgod"
+    "layer0": "palamod:items/stickof_gods"
   }
 }

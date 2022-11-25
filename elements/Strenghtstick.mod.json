@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "strenghtstick",
+    "texture": "strenght_stick",
     "customModelName": "Normal",
     "name": "Strenght stick",
     "specialInfo": [],

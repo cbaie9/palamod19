@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_axe_gnew",
+    "texture": "paladium_green_axe_head",
     "customModelName": "Normal",
     "name": "Green axe head",
     "rarity": "COMMON",

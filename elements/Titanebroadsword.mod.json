@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "broadsword_titane",
+    "texture": "titane",
     "customModelName": "Normal",
     "name": "Titane broadsword",
     "specialInfo": [],

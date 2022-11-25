@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/speedstick"
+    "layer0": "palamod:items/speed_stick"
   }
 }

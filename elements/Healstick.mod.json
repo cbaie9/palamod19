@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "healstick",
+    "texture": "heal_stick",
     "customModelName": "Normal",
     "name": "Heal stick",
     "specialInfo": [],

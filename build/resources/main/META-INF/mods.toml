@@ -11,7 +11,7 @@ displayURL="https://mcreator.net, https://paladium-pvp.fr"
 logoFile="logo.png"
 authors="cb9, FufuBs1"
 description='''
-the palamod ... in 1.19 { pre - release }
+the palamod ... in 1.19
 '''
 
 [[dependencies.palamod]]

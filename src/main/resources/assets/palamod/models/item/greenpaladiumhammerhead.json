@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "palamod:items/head_gpalahammer"
+    "layer0": "palamod:items/head_green_hammer_paladium16"
   }
 }

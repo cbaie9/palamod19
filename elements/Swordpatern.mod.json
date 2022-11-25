@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "patern_sword_new",
+    "texture": "sword_patern",
     "customModelName": "Normal",
     "name": "Sword patern",
     "rarity": "COMMON",

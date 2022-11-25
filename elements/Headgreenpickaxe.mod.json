@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_pickaxe_gnew",
+    "texture": "paladium_green_pickaxe_head16",
     "customModelName": "Normal",
     "name": "Green pickaxe head",
     "rarity": "COMMON",

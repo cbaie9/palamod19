@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/infernalknocker"
+    "layer0": "palamod:items/infernal_knocker"
   }
 }

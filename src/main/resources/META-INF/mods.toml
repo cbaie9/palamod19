@@ -7,11 +7,11 @@ modId="palamod"
 version="1.17.001"
 displayName="Palamod renew"
 credits="cb9 ,FufuBS1 Paladium team"
-displayURL="https://mcreator.net, https://paladium-pvp.fr"
+displayURL=" https://paladium-pvp.fr"
 logoFile="logo.png"
-authors="cb9, FufuBs1"
+authors="cb9, FufuBS1"
 description='''
-the palamod ... in 1.19 { pre - release }
+the palamod ... in 1.19
 '''
 
 [[dependencies.palamod]]

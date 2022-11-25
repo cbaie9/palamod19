@@ -64,7 +64,12 @@
     "palamod:tcv_2",
     "palamod:paladiummachine",
     "palamod:luckyblock",
+    "palamod:blackluckyblock",
     "palamod:paladiumfurnaceon",
-    "palamod:trixiumnbtblock"
+    "palamod:trixiumnbtblock",
+    "palamod:endiumnuggetore",
+    "palamod:endiumslab",
+    "palamod:endiumstairs",
+    "palamod:greenpaladiumslab"
   ]
 }

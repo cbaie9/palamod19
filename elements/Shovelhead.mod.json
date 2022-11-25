@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_shovel_rnew",
+    "texture": "head_shovel",
     "customModelName": "Normal",
     "name": "Shovel head",
     "rarity": "COMMON",

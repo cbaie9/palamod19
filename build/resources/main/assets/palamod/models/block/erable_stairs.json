@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "palamod:blocks/erable",
-    "top": "palamod:blocks/erable",
-    "side": "palamod:blocks/erable"
+    "bottom": "palamod:blocks/erable_planks",
+    "top": "palamod:blocks/erable_planks",
+    "side": "palamod:blocks/erable_planks"
   },
   "render_type": "solid"
 }

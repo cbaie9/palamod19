@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "palamod:blocks/judeecercis",
-    "particle": "palamod:blocks/judeecercis"
+    "all": "palamod:blocks/judeecercis_planks",
+    "particle": "palamod:blocks/judeecercis_planks"
   },
   "render_type": "solid"
 }

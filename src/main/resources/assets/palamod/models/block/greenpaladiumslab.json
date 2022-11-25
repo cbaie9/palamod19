@@ -1,8 +1,9 @@
 {
-  "parent": "block/half_slab",
+  "parent": "block/slab",
   "textures": {
-    "bottom": "palamod_:blocks/gpaladium_block",
-    "top": "palamod_:blocks/gpaladium_block",
-    "side": "palamod_:blocks/gpaladium_block"
-  }
+    "bottom": "palamod:blocks/gpaladium_block",
+    "top": "palamod:blocks/gpaladium_block",
+    "side": "palamod:blocks/gpaladium_block"
+  },
+  "render_type": "solid"
 }

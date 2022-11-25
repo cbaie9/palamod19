@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "patern_axe_new",
+    "texture": "axe_patern",
     "customModelName": "Normal",
     "name": "Axe partern",
     "rarity": "COMMON",

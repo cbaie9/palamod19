@@ -1,7 +1,7 @@
 {
   "parent": "block/template_fence_gate_wall",
   "textures": {
-    "texture": "palamod:blocks/erable"
+    "texture": "palamod:blocks/erable_planks"
   },
   "render_type": "solid"
 }

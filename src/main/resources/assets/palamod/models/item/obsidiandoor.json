@@ -3,5 +3,5 @@
   "textures": {
     "layer0": "palamod:items/obsidianitemdoor"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

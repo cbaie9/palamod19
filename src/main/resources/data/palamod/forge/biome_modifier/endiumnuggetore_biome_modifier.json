@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "palamod:forestender",
+    "forest",
+    "palamod:roofedforest",
+    "ocean",
+    "palamod:frozenforest",
+    "plains"
+  ],
+  "features": "palamod:endiumnuggetore",
+  "step": "underground_ores"
+}

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_sword_gnew",
+    "texture": "paladium_green_sword_head",
     "customModelName": "Normal",
-    "name": "Green sword head",
+    "name": "Green paladium sword head",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Grindercreativetab"

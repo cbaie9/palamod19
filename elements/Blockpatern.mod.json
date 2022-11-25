@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "block",
+    "texture": "block_patern",
     "customModelName": "Normal",
     "name": "Block patern",
     "rarity": "COMMON",

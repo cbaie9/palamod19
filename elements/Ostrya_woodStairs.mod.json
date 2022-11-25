@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "ostrya",
-    "textureTop": "ostrya",
+    "texture": "ostrya_planks",
+    "textureTop": "ostrya_planks",
     "textureLeft": "",
-    "textureFront": "ostrya",
+    "textureFront": "ostrya_planks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

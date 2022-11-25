@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class BlackluckyblockBlock extends Block {
 	public BlackluckyblockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override

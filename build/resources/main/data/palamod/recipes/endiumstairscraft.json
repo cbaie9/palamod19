@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "palamod:endium_ingot"
+    },
+    "4": {
+      "item": "palamod:endium_ingot"
+    },
+    "5": {
+      "item": "palamod:endium_ingot"
+    },
+    "6": {
+      "item": "palamod:endium_ingot"
+    },
+    "7": {
+      "item": "palamod:endium_ingot"
+    },
+    "8": {
+      "item": "palamod:endium_ingot"
+    }
+  },
+  "result": {
+    "item": "palamod:endiumstairs",
+    "count": 4
+  }
+}

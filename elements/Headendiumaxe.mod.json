@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_endium_axe",
+    "texture": "endium_axe_head16",
     "customModelName": "Normal",
     "name": "Endium axe head",
     "rarity": "COMMON",

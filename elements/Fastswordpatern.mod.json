@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "fastsword",
+    "texture": "fastsword_patern",
     "customModelName": "Normal",
     "name": "Fastsword patern",
     "rarity": "COMMON",

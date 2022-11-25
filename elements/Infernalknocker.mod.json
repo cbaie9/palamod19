@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "infernalknocker",
+    "texture": "infernal_knocker",
     "customModelName": "Normal",
     "name": "Infernalknocker",
     "specialInfo": [],

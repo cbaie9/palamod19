@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_fastsword_new",
+    "texture": "head_fastsword",
     "customModelName": "Normal",
     "name": "Fastsword head",
     "rarity": "COMMON",

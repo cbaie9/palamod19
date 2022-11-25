@@ -4,5 +4,5 @@
     "all": "palamod:blocks/berry_xp_bush_fancy",
     "particle": "palamod:blocks/berry_xp_bush_fancy"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }

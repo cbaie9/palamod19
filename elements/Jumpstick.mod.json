@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "jumpstick",
+    "texture": "JumpStick",
     "customModelName": "Normal",
     "name": "Jump stick",
     "specialInfo": [],

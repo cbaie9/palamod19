@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammame",
+    "texture": "hammer_amethyst",
     "customModelName": "Normal",
     "name": "Amethyste hammer",
     "specialInfo": [],

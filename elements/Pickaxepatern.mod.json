@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "patern_pickaxe_new",
+    "texture": "pickaxe_patern",
     "customModelName": "Normal",
     "name": "Pickaxe patern",
     "rarity": "COMMON",

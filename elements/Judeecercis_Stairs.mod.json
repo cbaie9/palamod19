@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "judeecercis",
-    "textureTop": "judeecercis",
+    "texture": "judeecercis_planks",
+    "textureTop": "judeecercis_planks",
     "textureLeft": "",
-    "textureFront": "judeecercis",
+    "textureFront": "judeecercis_planks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

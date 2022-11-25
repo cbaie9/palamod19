@@ -1,9 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "palamod:blocks/judeecercis",
-    "top": "palamod:blocks/judeecercis",
-    "side": "palamod:blocks/judeecercis"
+    "bottom": "palamod:blocks/judeecercis_planks",
+    "top": "palamod:blocks/judeecercis_planks",
+    "side": "palamod:blocks/judeecercis_planks"
   },
   "render_type": "solid"
 }

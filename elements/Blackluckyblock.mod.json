@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Blackluckyblock",
+    "name": "Black luckyblock",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -42,7 +42,7 @@
     "creativeTab": {
       "value": "CUSTOM:Luckyblockcreativetab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

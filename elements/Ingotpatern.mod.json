@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ingot",
+    "texture": "ingot_patern",
     "customModelName": "Normal",
     "name": "Ingot patern",
     "rarity": "COMMON",

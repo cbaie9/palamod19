@@ -3,5 +3,5 @@
   "textures": {
     "layer0": "palamod:blocks/judeecercis_door_down_beta"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

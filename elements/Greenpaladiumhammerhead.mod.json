@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "head_gpalahammer",
+    "texture": "head_green_hammer_paladium16",
     "customModelName": "Normal",
     "name": "Green paladium hammer head",
     "rarity": "COMMON",

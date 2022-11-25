@@ -1,5 +1,5 @@
 {
-  "parent": "palamod_:block/greenpaladiumslab",
+  "parent": "palamod:block/greenpaladiumslab",
   "display": {
     "thirdperson": {
       "rotation": [

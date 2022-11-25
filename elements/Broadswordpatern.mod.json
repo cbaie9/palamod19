@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "patern_broadsword_new",
+    "texture": "broadsword_patern",
     "customModelName": "Normal",
     "name": "Broadsword patern",
     "rarity": "COMMON",

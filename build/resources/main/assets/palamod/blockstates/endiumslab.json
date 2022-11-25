@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "palamod:block/endiumslab"
+    },
+    "type=top": {
+      "model": "palamod:block/endiumslab_top"
+    },
+    "type=double": {
+      "model": "palamod:block/endiumslab_full"
+    }
+  }
+}

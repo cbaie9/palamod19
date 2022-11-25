@@ -1,8 +1,8 @@
 {
   "parent": "block/fence_side",
   "textures": {
-    "texture": "palamod:blocks/jacaranda",
-    "particle": "palamod:blocks/jacaranda"
+    "texture": "palamod:blocks/jacaranda_planks",
+    "particle": "palamod:blocks/jacaranda_planks"
   },
   "render_type": "solid"
 }

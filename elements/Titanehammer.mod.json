@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "titane",
+    "texture": "titane_hammer",
     "customModelName": "Normal",
     "name": " Titane hammer",
     "specialInfo": [],

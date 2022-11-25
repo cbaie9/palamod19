@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "jacaranda",
-    "textureTop": "jacaranda",
+    "texture": "jacaranda_planks",
+    "textureTop": "jacaranda_planks",
     "textureLeft": "",
-    "textureFront": "jacaranda",
+    "textureFront": "jacaranda_planks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

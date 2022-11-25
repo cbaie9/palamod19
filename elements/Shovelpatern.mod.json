@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "patern_shovel_new",
+    "texture": "shovel_patern",
     "customModelName": "Normal",
     "name": "Shove lpatern",
     "rarity": "COMMON",

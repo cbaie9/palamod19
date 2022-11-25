@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "palamod:items/hammer"
+    "layer0": "palamod:items/hammer_patern"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "palamod:avancementforgeafa": {
+    "criteria": {
+      "avancementforgeafa": "2022-11-20 17:34:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "palamod:avancementgrindre": {
+    "criteria": {
+      "avancementgrindre": "2022-11-24 16:35:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "palamod:palamodavancement": {
+    "criteria": {
+      "palamodavancement": "2022-11-20 17:26:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2022-11-20 17:32:22 +0100",
+      "minecraft:river": "2022-11-20 17:32:05 +0100",
+      "minecraft:forest": "2022-11-20 17:26:34 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

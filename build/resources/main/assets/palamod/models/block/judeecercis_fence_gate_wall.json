@@ -1,7 +1,7 @@
 {
   "parent": "block/template_fence_gate_wall",
   "textures": {
-    "texture": "palamod:blocks/judeecercis"
+    "texture": "palamod:blocks/judeecercis_planks"
   },
   "render_type": "solid"
 }

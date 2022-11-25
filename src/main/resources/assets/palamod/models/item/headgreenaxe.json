@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "palamod:items/head_axe_gnew"
+    "layer0": "palamod:items/paladium_green_axe_head"
   }
 }

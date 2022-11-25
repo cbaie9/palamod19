@@ -604,6 +604,11 @@ public class PalamodModItems {
 	public static final RegistryObject<Item> PALADIUMARMORCUSTOM_3_BOOTS = REGISTRY.register("paladiumarmorcustom_3_boots",
 			() -> new Paladiumarmorcustom3Item.Boots());
 	public static final RegistryObject<Item> ENDIUMLUCKYBLOCK = block(PalamodModBlocks.ENDIUMLUCKYBLOCK, PalamodModTabs.TAB_LUCKYBLOCKCREATIVETAB);
+	public static final RegistryObject<Item> ENDIUMNUGGETORE = block(PalamodModBlocks.ENDIUMNUGGETORE, PalamodModTabs.TAB_PALAMOD);
+	public static final RegistryObject<Item> ENDIUMSLAB = block(PalamodModBlocks.ENDIUMSLAB, PalamodModTabs.TAB_PALAMOD);
+	public static final RegistryObject<Item> ENDIUMSTAIRS = block(PalamodModBlocks.ENDIUMSTAIRS, PalamodModTabs.TAB_PALAMOD);
+	public static final RegistryObject<Item> GREENPALADIUMSTAIRS = block(PalamodModBlocks.GREENPALADIUMSTAIRS, PalamodModTabs.TAB_PALAMOD);
+	public static final RegistryObject<Item> GREENPALADIUMSLAB = block(PalamodModBlocks.GREENPALADIUMSLAB, PalamodModTabs.TAB_PALAMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

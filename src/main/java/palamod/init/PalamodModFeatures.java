@@ -10,6 +10,7 @@ import palamod.world.features.ores.TitaneOreFeature;
 import palamod.world.features.ores.PaladiumOreFeature;
 import palamod.world.features.ores.PaladiumGreenoreFeature;
 import palamod.world.features.ores.FindiumOreFeature;
+import palamod.world.features.ores.EndiumnuggetoreFeature;
 import palamod.world.features.ores.AmethysteOreFeature;
 import palamod.world.features.lakes.AngelicwaterFeature;
 import palamod.world.features.IgloodestrFeature;
@@ -52,4 +53,5 @@ public class PalamodModFeatures {
 	public static final RegistryObject<Feature<?>> IGLOO = REGISTRY.register("igloo", IglooFeature::feature);
 	public static final RegistryObject<Feature<?>> IGLOODESTR = REGISTRY.register("igloodestr", IgloodestrFeature::feature);
 	public static final RegistryObject<Feature<?>> CUSTOMTEMPLE = REGISTRY.register("customtemple", CustomtempleFeature::feature);
+	public static final RegistryObject<Feature<?>> ENDIUMNUGGETORE = REGISTRY.register("endiumnuggetore", EndiumnuggetoreFeature::feature);
 }

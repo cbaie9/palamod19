@@ -4,5 +4,5 @@
     "bottom": "palamod:blocks/judeecercis_door_down_beta",
     "top": "palamod:blocks/judeecercis_door_up_beta"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "palamod:blocks/grinder_casing_block",
-    "top": "palamod:blocks/grinder_frame_block",
-    "side": "palamod:blocks/grinder_block_front"
+    "bottom": "palamod:blocks/grinder_casing_block16",
+    "top": "palamod:blocks/grinder_frame_block16",
+    "side": "palamod:blocks/grinder_block_front16"
   },
   "render_type": "solid"
 }

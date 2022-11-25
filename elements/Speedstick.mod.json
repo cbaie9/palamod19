@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "speedstick",
+    "texture": "speed_stick",
     "customModelName": "Normal",
     "name": "Speed stick",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "partern_neutral_new",
+    "texture": "socket_patern",
     "customModelName": "Normal",
     "name": "Socket patern",
     "rarity": "COMMON",
