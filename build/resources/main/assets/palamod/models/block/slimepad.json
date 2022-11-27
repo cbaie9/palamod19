@@ -1,9 +1,9 @@
 {
-  "parent": "block/slab",
+  "parent": "palamod:custom/slimepad",
   "textures": {
-    "bottom": "palamod:blocks/slime_green",
-    "top": "palamod:blocks/slime_green",
-    "side": "palamod:blocks/slime_green"
+    "all": "palamod:blocks/slime_green",
+    "particle": "palamod:blocks/slime_green",
+    "0": "palamod:blocks/slime_green"
   },
   "render_type": "solid"
 }

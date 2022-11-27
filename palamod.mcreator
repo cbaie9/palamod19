@@ -12481,6 +12481,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "endiumstairsdecraft"
+    },
+    {
+      "name": "Ingotpaterncraft",
+      "type": "recipe",
+      "sortid": 1002,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingotpaterncraft"
+    },
+    {
+      "name": "Paterncraft",
+      "type": "recipe",
+      "sortid": 1003,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paterncraft"
+    },
+    {
+      "name": "Fastswordpaterncraft",
+      "type": "recipe",
+      "sortid": 1004,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fastswordpaterncraft"
     }
   ],
   "variable_elements": [
@@ -13650,5 +13674,5 @@
     "modElementsPackage": "palamod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }
