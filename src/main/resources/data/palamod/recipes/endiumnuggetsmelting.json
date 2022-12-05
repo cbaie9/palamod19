@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "palamod:endiumnuggetore"
+  },
+  "result": "palamod:endiumnugget"
+}

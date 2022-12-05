@@ -1,0 +1,140 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Iron",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Iron",
+          "x": 184,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "number here",
+          "width": 120,
+          "height": 20,
+          "name": "number_buy",
+          "x": 152,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mode set :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mode set :",
+          "x": 155,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "buy",
+          "onClick": {
+            "name": "Adhoresiron"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "buy",
+          "x": 152,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "sell",
+          "onClick": {
+            "name": "Adhtsoreiron"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "sell",
+          "x": 226,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "back",
+          "onClick": {
+            "name": "Connectadhore"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "back",
+          "x": 133,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 160,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sell price : 15",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sell price : 15",
+          "x": 161,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buy price :  20",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Buy price :  20",
+          "x": 165,
+          "y": 73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

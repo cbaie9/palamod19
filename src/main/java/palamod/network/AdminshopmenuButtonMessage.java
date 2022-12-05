@@ -3,6 +3,7 @@ package palamod.network;
 
 import palamod.world.inventory.AdminshopmenuMenu;
 
+import palamod.procedures.ConnectadhoreProcedure;
 import palamod.procedures.AdminshopblockconnectProcedure;
 
 import palamod.PalamodMod;
@@ -64,6 +65,10 @@ public class AdminshopmenuButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			ConnectadhoreProcedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 4) {
 
 			AdminshopblockconnectProcedure.execute(world, x, y, z, entity);

@@ -18,7 +18,7 @@ import net.minecraft.world.InteractionHand;
 
 public class LegendarystoneinvisibleItem extends Item {
 	public LegendarystoneinvisibleItem() {
-		super(new Item.Properties().tab(PalamodModTabs.TAB_PALAMOD).stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(PalamodModTabs.TAB_LUCKYBLOCKCREATIVETAB).stacksTo(1).rarity(Rarity.EPIC));
 	}
 
 	@Override

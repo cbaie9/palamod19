@@ -14,6 +14,9 @@
         "type": "button",
         "data": {
           "text": "Dirt",
+          "onClick": {
+            "name": "Connectadhblkdirt"
+          },
           "width": 46,
           "height": 20,
           "name": "Dirt",
@@ -25,6 +28,9 @@
         "type": "button",
         "data": {
           "text": "Grass",
+          "onClick": {
+            "name": "Connectadhblkgrass"
+          },
           "width": 51,
           "height": 20,
           "name": "Grass",
@@ -36,6 +42,9 @@
         "type": "button",
         "data": {
           "text": "Stone",
+          "onClick": {
+            "name": "Connectadhblkstone"
+          },
           "width": 51,
           "height": 20,
           "name": "Stone",
@@ -47,6 +56,9 @@
         "type": "button",
         "data": {
           "text": "Netherrack",
+          "onClick": {
+            "name": "Adhblksellnetherrack"
+          },
           "width": 82,
           "height": 20,
           "name": "Netherrack",
@@ -58,6 +70,9 @@
         "type": "button",
         "data": {
           "text": "Soul sand",
+          "onClick": {
+            "name": "Connectadhblksoulsand"
+          },
           "width": 72,
           "height": 20,
           "name": "Soul sand",
@@ -69,6 +84,9 @@
         "type": "button",
         "data": {
           "text": "Sand",
+          "onClick": {
+            "name": "Connectadhblksand"
+          },
           "width": 46,
           "height": 20,
           "name": "Sand",
@@ -80,6 +98,9 @@
         "type": "button",
         "data": {
           "text": "Gravel",
+          "onClick": {
+            "name": "Connectadhblkgravel"
+          },
           "width": 56,
           "height": 20,
           "name": "Gravel",
@@ -91,6 +112,9 @@
         "type": "button",
         "data": {
           "text": "Glowstone",
+          "onClick": {
+            "name": "Connectadhblkglowstone"
+          },
           "width": 72,
           "height": 20,
           "name": "Glowstone",
@@ -102,6 +126,9 @@
         "type": "button",
         "data": {
           "text": "Oak wood",
+          "onClick": {
+            "name": "Connectadhblkoakwood"
+          },
           "width": 66,
           "height": 20,
           "name": "Oak wood",
@@ -113,6 +140,9 @@
         "type": "button",
         "data": {
           "text": "blackstone",
+          "onClick": {
+            "name": "Connectadhblkblackstone"
+          },
           "width": 77,
           "height": 20,
           "name": "blackstone",

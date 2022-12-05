@@ -42,19 +42,13 @@ public class EndiumdynamiteEntity extends Creeper {
 	public EndiumdynamiteEntity(EntityType<EndiumdynamiteEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(false);
+		setNoAi(true);
 		setPersistenceRequired();
 	}
 
 	@Override
 	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
-	}
-
-	@Override
-	protected void registerGoals() {
-		super.registerGoals();
-
 	}
 
 	@Override

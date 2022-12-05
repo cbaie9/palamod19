@@ -8,7 +8,7 @@
     "name": "Legendary stone power",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:Palamod"
+      "value": "CUSTOM:Luckyblockcreativetab"
     },
     "stackSize": 1,
     "enchantability": 0,

@@ -1,0 +1,127 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "amethyst",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "amethyst",
+          "x": 184,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "number here",
+          "width": 120,
+          "height": 20,
+          "name": "number_buy",
+          "x": 152,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mode set :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mode set :",
+          "x": 155,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "buy",
+          "onClick": {
+            "name": "Adhoresame"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "buy",
+          "x": 152,
+          "y": 145
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "sell",
+          "onClick": {
+            "name": "Adhtsoreame"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "sell",
+          "x": 226,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "back",
+          "onClick": {
+            "name": "Connectadhore"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "back",
+          "x": 133,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sell price : 70",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sell price : 70",
+          "x": 165,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buy price : 75",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Buy price : 75",
+          "x": 171,
+          "y": 77
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -107,4 +107,10 @@ public class WoddenspikeBlock extends Block {
 		super.entityInside(blockstate, world, pos, entity);
 		WooddenspikedamageProcedure.execute(entity);
 	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		WooddenspikedamageProcedure.execute(entity);
+	}
 }

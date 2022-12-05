@@ -3,6 +3,10 @@ package palamod.client.gui;
 
 import palamod.world.inventory.AdminshopblockMenu;
 
+import palamod.network.AdminshopblockButtonMessage;
+
+import palamod.PalamodMod;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -82,24 +86,64 @@ public class AdminshopblockScreen extends AbstractContainerScreen<Adminshopblock
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 22, this.topPos + 6, 46, 20, Component.literal("Dirt"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(0, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 146, this.topPos + 8, 51, 20, Component.literal("Grass"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(1, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 22, this.topPos + 32, 51, 20, Component.literal("Stone"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(2, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 22, this.topPos + 58, 82, 20, Component.literal("Netherrack"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(3, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 21, this.topPos + 84, 72, 20, Component.literal("Soul sand"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(4, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 151, this.topPos + 33, 46, 20, Component.literal("Sand"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(5, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 141, this.topPos + 57, 56, 20, Component.literal("Gravel"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(6, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 21, this.topPos + 113, 72, 20, Component.literal("Glowstone"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(7, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 21, this.topPos + 141, 66, 20, Component.literal("Oak wood"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(8, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 120, this.topPos + 84, 77, 20, Component.literal("blackstone"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopblockButtonMessage(9, x, y, z));
+				AdminshopblockButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
 		}));
 	}
 }

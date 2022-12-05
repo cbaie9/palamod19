@@ -20,7 +20,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.control.MoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -50,7 +49,7 @@ public class BigdynamiteentityEntity extends Creeper {
 	public BigdynamiteentityEntity(EntityType<BigdynamiteentityEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(false);
+		setNoAi(true);
 		setPersistenceRequired();
 		this.setPathfindingMalus(BlockPathTypes.WATER, 0);
 		this.moveControl = new MoveControl(this) {
@@ -96,12 +95,6 @@ public class BigdynamiteentityEntity extends Creeper {
 	@Override
 	protected PathNavigation createNavigation(Level world) {
 		return new WaterBoundPathNavigation(this, world);
-	}
-
-	@Override
-	protected void registerGoals() {
-		super.registerGoals();
-		this.goalSelector.addGoal(1, new FloatGoal(this));
 	}
 
 	@Override

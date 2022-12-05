@@ -37,11 +37,11 @@ public class PalamodModBlockEntities {
 			PaladiumforgeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MEGASAFECHEST = register("megasafechest", PalamodModBlocks.MEGASAFECHEST,
 			MegasafechestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PALADIUMMACHINE = register("paladiummachine", PalamodModBlocks.PALADIUMMACHINE,
+			PaladiummachineBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> GRINDERBLOCK = register("grinderblock", PalamodModBlocks.GRINDERBLOCK,
 			GrinderblockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TCV_2 = register("tcv_2", PalamodModBlocks.TCV_2, Tcv2BlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> PALADIUMMACHINE = register("paladiummachine", PalamodModBlocks.PALADIUMMACHINE,
-			PaladiummachineBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LUCKYBLOCK = register("luckyblock", PalamodModBlocks.LUCKYBLOCK,
 			LuckyblockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> NBTBLOCK = register("nbtblock", PalamodModBlocks.NBTBLOCK, NbtblockBlockEntity::new);

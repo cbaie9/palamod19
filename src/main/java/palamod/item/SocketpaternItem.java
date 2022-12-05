@@ -10,7 +10,7 @@ import net.minecraft.world.item.Item;
 
 public class SocketpaternItem extends Item {
 	public SocketpaternItem() {
-		super(new Item.Properties().tab(PalamodModTabs.TAB_PALAMOD).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(PalamodModTabs.TAB_GRINDERCREATIVETAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

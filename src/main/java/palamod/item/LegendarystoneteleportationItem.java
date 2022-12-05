@@ -18,7 +18,7 @@ import net.minecraft.world.InteractionHand;
 
 public class LegendarystoneteleportationItem extends Item {
 	public LegendarystoneteleportationItem() {
-		super(new Item.Properties().tab(PalamodModTabs.TAB_PALAMOD).stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(PalamodModTabs.TAB_LUCKYBLOCKCREATIVETAB).stacksTo(1).rarity(Rarity.EPIC));
 	}
 
 	@Override

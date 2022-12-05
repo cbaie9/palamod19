@@ -1,0 +1,15 @@
+{
+  "palamod:palamodavancement": {
+    "criteria": {
+      "palamodavancement": "2022-12-05 20:00:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-12-05 20:00:08 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

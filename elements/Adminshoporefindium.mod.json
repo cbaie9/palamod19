@@ -1,0 +1,114 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Findium",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Findium",
+          "x": 184,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "number here",
+          "width": 120,
+          "height": 20,
+          "name": "number_buy",
+          "x": 152,
+          "y": 124
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "buy",
+          "onClick": {
+            "name": "AdhoresFindium"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "buy",
+          "x": 150,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "sell",
+          "onClick": {
+            "name": "Adhtsorefindium"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "sell",
+          "x": 227,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "back",
+          "onClick": {
+            "name": "Connectadhore"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "back",
+          "x": 133,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sell price : 85",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sell price : 85",
+          "x": 163,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buy price : 90",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Buy price : 90",
+          "x": 170,
+          "y": 78
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
