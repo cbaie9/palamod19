@@ -18,7 +18,7 @@ import java.util.Collections;
 public class GreenpaladiumstairsBlock extends StairBlock {
 	public GreenpaladiumstairsBlock() {
 		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).dynamicShape());
+				BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).dynamicShape());
 	}
 
 	@Override

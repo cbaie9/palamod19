@@ -21,7 +21,7 @@
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "disableOffset": false,
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
@@ -36,63 +36,63 @@
         "mx": 1.0,
         "my": 1.0,
         "mz": 1.0,
-        "Mx": 14.0,
-        "My": 2.0,
-        "Mz": 14.0,
+        "Mx": 15.0,
+        "My": 3.0,
+        "Mz": 15.0,
         "subtract": false
       },
       {
         "mx": 2.0,
-        "my": 2.0,
+        "my": 3.0,
         "mz": 2.0,
-        "Mx": 12.0,
-        "My": 3.0,
-        "Mz": 12.0,
+        "Mx": 14.0,
+        "My": 4.0,
+        "Mz": 14.0,
         "subtract": false
       },
       {
         "mx": 3.0,
-        "my": 3.0,
+        "my": 4.0,
         "mz": 3.0,
-        "Mx": 10.0,
-        "My": 4.0,
-        "Mz": 10.0,
+        "Mx": 13.0,
+        "My": 5.0,
+        "Mz": 13.0,
         "subtract": false
       },
       {
         "mx": 4.0,
-        "my": 4.0,
+        "my": 5.0,
         "mz": 4.0,
-        "Mx": 8.0,
-        "My": 5.0,
-        "Mz": 8.0,
+        "Mx": 12.0,
+        "My": 7.0,
+        "Mz": 12.0,
         "subtract": false
       },
       {
         "mx": 5.0,
-        "my": 5.0,
+        "my": 7.0,
         "mz": 5.0,
-        "Mx": 6.0,
-        "My": 6.0,
-        "Mz": 6.0,
+        "Mx": 11.0,
+        "My": 8.0,
+        "Mz": 11.0,
         "subtract": false
       },
       {
         "mx": 6.0,
-        "my": 6.0,
+        "my": 8.0,
         "mz": 6.0,
-        "Mx": 4.0,
-        "My": 7.0,
-        "Mz": 4.0,
+        "Mx": 10.0,
+        "My": 9.0,
+        "Mz": 10.0,
         "subtract": false
       },
       {
         "mx": 7.0,
-        "my": 7.0,
+        "my": 9.0,
         "mz": 7.0,
-        "Mx": 2.0,
-        "My": 8.0,
-        "Mz": 2.0,
+        "Mx": 9.0,
+        "My": 11.0,
+        "Mz": 9.0,
         "subtract": false
       }
     ],
@@ -187,6 +187,9 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onEntityCollides": {
+      "name": "Ametyste_spike_damage"
+    },
+    "onEntityWalksOn": {
       "name": "Ametyste_spike_damage"
     },
     "spawnWorldTypes": [],

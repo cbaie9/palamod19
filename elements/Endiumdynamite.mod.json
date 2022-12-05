@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Endium dynamite",
     "mobLabel": "",
-    "mobModelName": "Modeldynamite_t4",
+    "mobModelName": "Modeldynamite_model",
     "mobModelTexture": "endium_dyna_t4.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
@@ -102,7 +102,7 @@
     "onInitialSpawn": {
       "name": "Endiumdynaiteboom"
     },
-    "hasAI": true,
+    "hasAI": false,
     "aiBase": "Creeper",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block><block type=\"attack_on_collide\" x=\"41\" y=\"151\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,

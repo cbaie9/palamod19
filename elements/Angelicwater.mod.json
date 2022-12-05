@@ -40,9 +40,7 @@
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
     "frequencyOnChunks": 1,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [
       {
         "value": "beaches"

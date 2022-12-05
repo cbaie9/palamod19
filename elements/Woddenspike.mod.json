@@ -191,6 +191,9 @@
     "onEntityCollides": {
       "name": "Wooddenspikedamage"
     },
+    "onEntityWalksOn": {
+      "name": "Wooddenspikedamage"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

@@ -8,6 +8,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -59,7 +60,17 @@ public class IronspikeBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
+
+		return switch (state.getValue(FACING)) {
+			default -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+		};
 	}
 
 	@Override
@@ -93,6 +104,13 @@ public class IronspikeBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		IronspikedamageProcedure.execute(entity);
+		return retval;
 	}
 
 	@Override

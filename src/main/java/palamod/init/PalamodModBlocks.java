@@ -172,9 +172,14 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> AMETHYSTSTAIRS = REGISTRY.register("amethyststairs", () -> new AmethyststairsBlock());
 	public static final RegistryObject<Block> AMETHYSTSLAB = REGISTRY.register("amethystslab", () -> new AmethystslabBlock());
 	public static final RegistryObject<Block> PALADIUMCRUSHER = REGISTRY.register("paladiumcrusher", () -> new PaladiumcrusherBlock());
+	public static final RegistryObject<Block> ENDIUMNUGGETORE = REGISTRY.register("endiumnuggetore", () -> new EndiumnuggetoreBlock());
 	public static final RegistryObject<Block> ENDIUM_BLOCK = REGISTRY.register("endium_block", () -> new EndiumBlockBlock());
+	public static final RegistryObject<Block> ENDIUMSTAIRS = REGISTRY.register("endiumstairs", () -> new EndiumstairsBlock());
+	public static final RegistryObject<Block> ENDIUMSLAB = REGISTRY.register("endiumslab", () -> new EndiumslabBlock());
 	public static final RegistryObject<Block> PALADIUM_GREENORE = REGISTRY.register("paladium_greenore", () -> new PaladiumGreenoreBlock());
 	public static final RegistryObject<Block> PALADIUM_GREENBLOCK = REGISTRY.register("paladium_greenblock", () -> new PaladiumGreenblockBlock());
+	public static final RegistryObject<Block> GREENPALADIUMSTAIRS = REGISTRY.register("greenpaladiumstairs", () -> new GreenpaladiumstairsBlock());
+	public static final RegistryObject<Block> GREENPALADIUMSLAB = REGISTRY.register("greenpaladiumslab", () -> new GreenpaladiumslabBlock());
 	public static final RegistryObject<Block> FINDIUM_ORE = REGISTRY.register("findium_ore", () -> new FindiumOreBlock());
 	public static final RegistryObject<Block> FINDIUM_BLOCK = REGISTRY.register("findium_block", () -> new FindiumBlockBlock());
 	public static final RegistryObject<Block> FINDIUMSTAIRS = REGISTRY.register("findiumstairs", () -> new FindiumstairsBlock());
@@ -231,10 +236,14 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> GUARDIANBLOCK = REGISTRY.register("guardianblock", () -> new GuardianblockBlock());
 	public static final RegistryObject<Block> STONY = REGISTRY.register("stony", () -> new StonyBlock());
 	public static final RegistryObject<Block> CLOUDBLOCK = REGISTRY.register("cloudblock", () -> new CloudblockBlock());
+	public static final RegistryObject<Block> PALADIUMMACHINE = REGISTRY.register("paladiummachine", () -> new PaladiummachineBlock());
 	public static final RegistryObject<Block> GRINDERBLOCK = REGISTRY.register("grinderblock", () -> new GrinderblockBlock());
 	public static final RegistryObject<Block> GRINDERCASING = REGISTRY.register("grindercasing", () -> new GrindercasingBlock());
 	public static final RegistryObject<Block> GRINDERFRAME = REGISTRY.register("grinderframe", () -> new GrinderframeBlock());
 	public static final RegistryObject<Block> TCV_2 = REGISTRY.register("tcv_2", () -> new Tcv2Block());
+	public static final RegistryObject<Block> LUCKYBLOCK = REGISTRY.register("luckyblock", () -> new LuckyblockBlock());
+	public static final RegistryObject<Block> BLACKLUCKYBLOCK = REGISTRY.register("blackluckyblock", () -> new BlackluckyblockBlock());
+	public static final RegistryObject<Block> ENDIUMLUCKYBLOCK = REGISTRY.register("endiumluckyblock", () -> new EndiumluckyblockBlock());
 	public static final RegistryObject<Block> OSTRYASAPPLING = REGISTRY.register("ostryasappling", () -> new OstryasapplingBlock());
 	public static final RegistryObject<Block> JACARANDASAPPLING = REGISTRY.register("jacarandasappling", () -> new JacarandasapplingBlock());
 	public static final RegistryObject<Block> OSTRYA_WOOD_WOOD = REGISTRY.register("ostrya_wood_wood", () -> new Ostrya_woodWoodBlock());
@@ -274,9 +283,6 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> ERABLESAPPLING = REGISTRY.register("erablesappling", () -> new ErablesapplingBlock());
 	public static final RegistryObject<Block> JUDEECERCISSAPPLING = REGISTRY.register("judeecercissappling", () -> new JudeecercissapplingBlock());
 	public static final RegistryObject<Block> JUDEECERCISDOOR = REGISTRY.register("judeecercisdoor", () -> new JudeecercisdoorBlock());
-	public static final RegistryObject<Block> PALADIUMMACHINE = REGISTRY.register("paladiummachine", () -> new PaladiummachineBlock());
-	public static final RegistryObject<Block> LUCKYBLOCK = REGISTRY.register("luckyblock", () -> new LuckyblockBlock());
-	public static final RegistryObject<Block> BLACKLUCKYBLOCK = REGISTRY.register("blackluckyblock", () -> new BlackluckyblockBlock());
 	public static final RegistryObject<Block> NBTBLOCK = REGISTRY.register("nbtblock", () -> new NbtblockBlock());
 	public static final RegistryObject<Block> XPBUSHON = REGISTRY.register("xpbushon", () -> new XpbushonBlock());
 	public static final RegistryObject<Block> PALADIUMFURNACEON = REGISTRY.register("paladiumfurnaceon", () -> new PaladiumfurnaceonBlock());
@@ -301,10 +307,4 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> TRIXIUMNBTBLOCK = REGISTRY.register("trixiumnbtblock", () -> new TrixiumnbtblockBlock());
 	public static final RegistryObject<Block> CROWN = REGISTRY.register("crown", () -> new CrownBlock());
 	public static final RegistryObject<Block> FACTIONBLCK = REGISTRY.register("factionblck", () -> new FactionblckBlock());
-	public static final RegistryObject<Block> ENDIUMLUCKYBLOCK = REGISTRY.register("endiumluckyblock", () -> new EndiumluckyblockBlock());
-	public static final RegistryObject<Block> ENDIUMNUGGETORE = REGISTRY.register("endiumnuggetore", () -> new EndiumnuggetoreBlock());
-	public static final RegistryObject<Block> ENDIUMSLAB = REGISTRY.register("endiumslab", () -> new EndiumslabBlock());
-	public static final RegistryObject<Block> ENDIUMSTAIRS = REGISTRY.register("endiumstairs", () -> new EndiumstairsBlock());
-	public static final RegistryObject<Block> GREENPALADIUMSTAIRS = REGISTRY.register("greenpaladiumstairs", () -> new GreenpaladiumstairsBlock());
-	public static final RegistryObject<Block> GREENPALADIUMSLAB = REGISTRY.register("greenpaladiumslab", () -> new GreenpaladiumslabBlock());
 }

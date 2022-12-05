@@ -4,6 +4,6 @@
   "definition": {
     "commandName": "adminshop",
     "permissionLevel": "No requirement",
-    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">Adminshop_open</field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">menu</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Adminshop_open</field></block></statement><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">ores</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Connectadhore</field></block></statement><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">blocks</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Adminshopblockconnect</field></block></statement></block></next></block></next></block></next></block><block type=\"old_command\" x=\"799\" y=\"161\"><field name=\"procedure\">Adminshop_open</field></block><block type=\"old_command\" x=\"569\" y=\"255\"><field name=\"procedure\">Adminshop_open</field></block></xml>"
   }
 }

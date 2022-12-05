@@ -87,6 +87,10 @@ public class AdminshopmenuScreen extends AbstractContainerScreen<AdminshopmenuMe
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 58, this.topPos + 53, 46, 20, Component.literal("Ores"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopmenuButtonMessage(0, x, y, z));
+				AdminshopmenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 58, this.topPos + 83, 46, 20, Component.literal("seed"), e -> {
 		}));

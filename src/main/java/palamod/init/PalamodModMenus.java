@@ -78,9 +78,27 @@ import palamod.world.inventory.ArmorpalahelpguiMenu;
 import palamod.world.inventory.AnalyserresultMenu;
 import palamod.world.inventory.AnalyserloadingMenu;
 import palamod.world.inventory.AlchemycreatorguiMenu;
+import palamod.world.inventory.AdminshoporetitaneMenu;
+import palamod.world.inventory.AdminshoporepaladiumMenu;
+import palamod.world.inventory.AdminshoporeironMenu;
+import palamod.world.inventory.AdminshoporegoldMenu;
+import palamod.world.inventory.AdminshoporefindiumMenu;
+import palamod.world.inventory.AdminshoporediamondMenu;
+import palamod.world.inventory.AdminshoporecoalMenu;
+import palamod.world.inventory.AdminshoporeamethystMenu;
+import palamod.world.inventory.AdminshoporeMenu;
 import palamod.world.inventory.AdminshopmenuMenu;
-import palamod.world.inventory.AdminshopdirtMenu;
+import palamod.world.inventory.AdminshopblockstoneMenu;
+import palamod.world.inventory.AdminshopblocksoulsandMenu;
+import palamod.world.inventory.AdminshopblockoakwoodMenu;
+import palamod.world.inventory.AdminshopblockgrassMenu;
+import palamod.world.inventory.AdminshopblockblackstoneMenu;
+import palamod.world.inventory.AdminshopblockSandMenu;
+import palamod.world.inventory.AdminshopblockNetherrackMenu;
 import palamod.world.inventory.AdminshopblockMenu;
+import palamod.world.inventory.AdminshopblockGravelMenu;
+import palamod.world.inventory.AdminshopblockGlowstoneMenu;
+import palamod.world.inventory.AdminshopblockDirtMenu;
 import palamod.world.inventory.AdminshopadbanMenu;
 import palamod.world.inventory.AdminpanelmenuMenu;
 
@@ -226,8 +244,6 @@ public class PalamodModMenus {
 			() -> IForgeMenuType.create(AdminshopmenuMenu::new));
 	public static final RegistryObject<MenuType<AdminshopblockMenu>> ADMINSHOPBLOCK = REGISTRY.register("adminshopblock",
 			() -> IForgeMenuType.create(AdminshopblockMenu::new));
-	public static final RegistryObject<MenuType<AdminshopdirtMenu>> ADMINSHOPDIRT = REGISTRY.register("adminshopdirt",
-			() -> IForgeMenuType.create(AdminshopdirtMenu::new));
 	public static final RegistryObject<MenuType<Hdvguiv2Menu>> HDVGUIV_2 = REGISTRY.register("hdvguiv_2",
 			() -> IForgeMenuType.create(Hdvguiv2Menu::new));
 	public static final RegistryObject<MenuType<VoidstoneminerconfigMenu>> VOIDSTONEMINERCONFIG = REGISTRY.register("voidstoneminerconfig",
@@ -248,4 +264,42 @@ public class PalamodModMenus {
 			() -> IForgeMenuType.create(AnalyserloadingMenu::new));
 	public static final RegistryObject<MenuType<AnalyserresultMenu>> ANALYSERRESULT = REGISTRY.register("analyserresult",
 			() -> IForgeMenuType.create(AnalyserresultMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporeMenu>> ADMINSHOPORE = REGISTRY.register("adminshopore",
+			() -> IForgeMenuType.create(AdminshoporeMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporepaladiumMenu>> ADMINSHOPOREPALADIUM = REGISTRY.register("adminshoporepaladium",
+			() -> IForgeMenuType.create(AdminshoporepaladiumMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporetitaneMenu>> ADMINSHOPORETITANE = REGISTRY.register("adminshoporetitane",
+			() -> IForgeMenuType.create(AdminshoporetitaneMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporeamethystMenu>> ADMINSHOPOREAMETHYST = REGISTRY.register("adminshoporeamethyst",
+			() -> IForgeMenuType.create(AdminshoporeamethystMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporediamondMenu>> ADMINSHOPOREDIAMOND = REGISTRY.register("adminshoporediamond",
+			() -> IForgeMenuType.create(AdminshoporediamondMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporecoalMenu>> ADMINSHOPORECOAL = REGISTRY.register("adminshoporecoal",
+			() -> IForgeMenuType.create(AdminshoporecoalMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporegoldMenu>> ADMINSHOPOREGOLD = REGISTRY.register("adminshoporegold",
+			() -> IForgeMenuType.create(AdminshoporegoldMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporeironMenu>> ADMINSHOPOREIRON = REGISTRY.register("adminshoporeiron",
+			() -> IForgeMenuType.create(AdminshoporeironMenu::new));
+	public static final RegistryObject<MenuType<AdminshoporefindiumMenu>> ADMINSHOPOREFINDIUM = REGISTRY.register("adminshoporefindium",
+			() -> IForgeMenuType.create(AdminshoporefindiumMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockDirtMenu>> ADMINSHOPBLOCK_DIRT = REGISTRY.register("adminshopblock_dirt",
+			() -> IForgeMenuType.create(AdminshopblockDirtMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockstoneMenu>> ADMINSHOPBLOCKSTONE = REGISTRY.register("adminshopblockstone",
+			() -> IForgeMenuType.create(AdminshopblockstoneMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockgrassMenu>> ADMINSHOPBLOCKGRASS = REGISTRY.register("adminshopblockgrass",
+			() -> IForgeMenuType.create(AdminshopblockgrassMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockSandMenu>> ADMINSHOPBLOCK_SAND = REGISTRY.register("adminshopblock_sand",
+			() -> IForgeMenuType.create(AdminshopblockSandMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockNetherrackMenu>> ADMINSHOPBLOCK_NETHERRACK = REGISTRY
+			.register("adminshopblock_netherrack", () -> IForgeMenuType.create(AdminshopblockNetherrackMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockGravelMenu>> ADMINSHOPBLOCK_GRAVEL = REGISTRY.register("adminshopblock_gravel",
+			() -> IForgeMenuType.create(AdminshopblockGravelMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblocksoulsandMenu>> ADMINSHOPBLOCKSOULSAND = REGISTRY.register("adminshopblocksoulsand",
+			() -> IForgeMenuType.create(AdminshopblocksoulsandMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockblackstoneMenu>> ADMINSHOPBLOCKBLACKSTONE = REGISTRY
+			.register("adminshopblockblackstone", () -> IForgeMenuType.create(AdminshopblockblackstoneMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockoakwoodMenu>> ADMINSHOPBLOCKOAKWOOD = REGISTRY.register("adminshopblockoakwood",
+			() -> IForgeMenuType.create(AdminshopblockoakwoodMenu::new));
+	public static final RegistryObject<MenuType<AdminshopblockGlowstoneMenu>> ADMINSHOPBLOCK_GLOWSTONE = REGISTRY.register("adminshopblock_glowstone",
+			() -> IForgeMenuType.create(AdminshopblockGlowstoneMenu::new));
 }

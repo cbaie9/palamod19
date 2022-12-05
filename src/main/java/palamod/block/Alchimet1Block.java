@@ -5,6 +5,9 @@ import palamod.world.inventory.AlchemycreatorguiMenu;
 
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -60,6 +63,12 @@ public class Alchimet1Block extends Block implements SimpleWaterloggedBlock
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+
+		return Shapes.or(box(0, 0, 0, 16, 11, 16), box(0, 11, 0, 4, 14, 6));
 	}
 
 	@Override

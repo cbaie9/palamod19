@@ -3,18 +3,15 @@ package palamod.client.renderer;
 
 import palamod.entity.PaladiumgolemEntity;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
+import palamod.client.model.ModelGolem4819;
 
-public class PaladiumgolemRenderer extends HumanoidMobRenderer<PaladiumgolemEntity, HumanoidModel<PaladiumgolemEntity>> {
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+
+public class PaladiumgolemRenderer extends MobRenderer<PaladiumgolemEntity, ModelGolem4819<PaladiumgolemEntity>> {
 	public PaladiumgolemRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)),
-				new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		super(context, new ModelGolem4819(context.bakeLayer(ModelGolem4819.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

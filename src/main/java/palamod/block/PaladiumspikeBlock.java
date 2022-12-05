@@ -53,14 +53,14 @@ public class PaladiumspikeBlock extends Block {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(2, 1, 2, 15, 2, 15), box(4, 2, 4, 14, 3, 14), box(6, 3, 6, 13, 4, 13),
-					box(8, 4, 8, 12, 5, 12), box(10, 5, 10, 11, 6, 11), box(10, 6, 10, 12, 7, 12), box(9, 7, 9, 14, 8, 14));
-			case NORTH -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 14, 2, 14), box(2, 2, 2, 12, 3, 12), box(3, 3, 3, 10, 4, 10),
-					box(4, 4, 4, 8, 5, 8), box(5, 5, 5, 6, 6, 6), box(4, 6, 4, 6, 7, 6), box(2, 7, 2, 7, 8, 7));
-			case EAST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(2, 1, 1, 15, 2, 14), box(4, 2, 2, 14, 3, 12), box(6, 3, 3, 13, 4, 10),
-					box(8, 4, 4, 12, 5, 8), box(10, 5, 5, 11, 6, 6), box(10, 6, 4, 12, 7, 6), box(9, 7, 2, 14, 8, 7));
-			case WEST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 2, 14, 2, 15), box(2, 2, 4, 12, 3, 14), box(3, 3, 6, 10, 4, 13),
-					box(4, 4, 8, 8, 5, 12), box(5, 5, 10, 6, 6, 11), box(4, 6, 10, 6, 7, 12), box(2, 7, 9, 7, 8, 14));
+			default -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 3, 15), box(2, 3, 2, 14, 4, 14), box(3, 4, 3, 13, 5, 13),
+					box(4, 5, 4, 12, 7, 12), box(5, 7, 5, 11, 8, 11), box(6, 8, 6, 10, 9, 10), box(7, 9, 7, 9, 11, 9));
 		};
 	}
 
@@ -100,6 +100,12 @@ public class PaladiumspikeBlock extends Block {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
+		PaladiumspikedamageProcedure.execute(entity);
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
 		PaladiumspikedamageProcedure.execute(entity);
 	}
 }

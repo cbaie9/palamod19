@@ -18,7 +18,7 @@ import net.minecraft.world.InteractionHand;
 
 public class LegendarystonejobsItem extends Item {
 	public LegendarystonejobsItem() {
-		super(new Item.Properties().tab(PalamodModTabs.TAB_PALAMOD).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(PalamodModTabs.TAB_LUCKYBLOCKCREATIVETAB).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

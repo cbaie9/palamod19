@@ -8,7 +8,7 @@
     "name": "Socket patern",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Palamod"
+      "value": "CUSTOM:Grindercreativetab"
     },
     "stackSize": 64,
     "enchantability": 0,

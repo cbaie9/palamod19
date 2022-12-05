@@ -21,15 +21,24 @@
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "disableOffset": false,
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 11.0,
         "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 11.0,
+        "mz": 0.0,
+        "Mx": 4.0,
+        "My": 14.0,
+        "Mz": 6.0,
         "subtract": false
       }
     ],

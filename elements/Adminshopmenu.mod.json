@@ -27,6 +27,9 @@
         "type": "button",
         "data": {
           "text": "Ores",
+          "onClick": {
+            "name": "Connectadhore"
+          },
           "width": 46,
           "height": 20,
           "name": "Ores",

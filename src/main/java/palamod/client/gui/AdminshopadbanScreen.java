@@ -76,7 +76,7 @@ public class AdminshopadbanScreen extends AbstractContainerScreen<Adminshopadban
 		this.font.draw(poseStack, "L'admininshop a \u00E9t\u00E9 abandonn\u00E9", 100, 10, -12829636);
 		this.font.draw(poseStack, "a cause du bug du non- fonctionnement", 86, 22, -12829636);
 		this.font.draw(poseStack, "du  /hdv", 87, 34, -12829636);
-		this.font.draw(poseStack, "Si vous trouvez le bug https://github.com/cbaie9/palamod16", 26, 64, -12829636);
+		this.font.draw(poseStack, "Si vous trouvez le bug https://github.com/cbaie9/palamod19", 26, 64, -12829636);
 		this.font.draw(poseStack, "Vous pouvez me le report en mp ou sur le serveur discord", 25, 75, -12829636);
 	}
 
