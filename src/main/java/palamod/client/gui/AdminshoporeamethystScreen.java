@@ -79,7 +79,7 @@ public class AdminshoporeamethystScreen extends AbstractContainerScreen<Adminsho
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "amethyst", 58, 6, -12829636);
+		this.font.draw(poseStack, "Amethyst", 58, 6, -12829636);
 		this.font.draw(poseStack, "Mode set :", 29, 74, -12829636);
 		this.font.draw(poseStack, "Sell price : 70", 39, 28, -12829636);
 		this.font.draw(poseStack, "Buy price : 75", 45, 40, -12829636);

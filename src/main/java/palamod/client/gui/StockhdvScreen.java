@@ -74,6 +74,7 @@ public class StockhdvScreen extends AbstractContainerScreen<StockhdvMenu> {
 		this.font.draw(poseStack, "46 47 48  49  50 51  52 53  54  55 56 57  58 59  60  61 62 63 64  65 66  67  68", 8, 59, -12829636);
 		this.font.draw(poseStack, "Inventory ", 246, 142, -12829636);
 		this.font.draw(poseStack, "Stocks hdv items - 0 10 0 ", 248, 131, -12829636);
+		this.font.draw(poseStack, "69 70 71  72  73  74  75 76 77 78 79  80  81  82 83  84 85  86 87  88  89 90 91", 7, 87, -12829636);
 	}
 
 	@Override

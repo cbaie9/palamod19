@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:oak_log",
+    "minecraft:stone",
+    "minecraft:blackstone",
+    "minecraft:diamond",
+    "minecraft:iron_ingot",
+    "palamod:amethyste",
+    "minecraft:soul_sand",
+    "palamod:paladium_ingot",
+    "minecraft:grass_block",
+    "palamod:findium",
+    "minecraft:glowstone",
+    "palamod:titane_ingot",
+    "minecraft:coal",
+    "minecraft:netherrack",
+    "minecraft:sand",
+    "minecraft:gravel",
+    "minecraft:dirt"
+  ]
+}

@@ -8,6 +8,7 @@ import palamod.world.inventory.XpbushpalahelpguienMenu;
 import palamod.world.inventory.XpbushpalahelpguiMenu;
 import palamod.world.inventory.WipguiMenu;
 import palamod.world.inventory.VoidstoneminerconfigMenu;
+import palamod.world.inventory.UploaderguiMenu;
 import palamod.world.inventory.TrashguiMenu;
 import palamod.world.inventory.TemporymarketMenu;
 import palamod.world.inventory.StockhdvMenu;
@@ -49,6 +50,7 @@ import palamod.world.inventory.LegendarystonepalahelpMenu;
 import palamod.world.inventory.LegendarystoneenMenu;
 import palamod.world.inventory.LanguageselectionMenu;
 import palamod.world.inventory.ItemmenupalahelpMenu;
+import palamod.world.inventory.Hdvv3Menu;
 import palamod.world.inventory.HdvsellguiMenu;
 import palamod.world.inventory.HdvhelpMenu;
 import palamod.world.inventory.Hdvguiv2Menu;
@@ -302,4 +304,7 @@ public class PalamodModMenus {
 			() -> IForgeMenuType.create(AdminshopblockoakwoodMenu::new));
 	public static final RegistryObject<MenuType<AdminshopblockGlowstoneMenu>> ADMINSHOPBLOCK_GLOWSTONE = REGISTRY.register("adminshopblock_glowstone",
 			() -> IForgeMenuType.create(AdminshopblockGlowstoneMenu::new));
+	public static final RegistryObject<MenuType<UploaderguiMenu>> UPLOADERGUI = REGISTRY.register("uploadergui",
+			() -> IForgeMenuType.create(UploaderguiMenu::new));
+	public static final RegistryObject<MenuType<Hdvv3Menu>> HDVV_3 = REGISTRY.register("hdvv_3", () -> IForgeMenuType.create(Hdvv3Menu::new));
 }

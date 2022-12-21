@@ -74,16 +74,14 @@ public class WipguiScreen extends AbstractContainerScreen<WipguiMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Palamod - Not in working in progress", 45, 6, -3407872);
-		this.font.draw(poseStack, "release\uFFFD / poisson d'avril", 5, 208, -12829636);
-		this.font.draw(poseStack, "Vous croyer qu'en 1 semaine on peut cr\uFFFDer un hdv", 11, 36, -12829636);
-		this.font.draw(poseStack, "BRUH", 11, 51, -12829636);
-		this.font.draw(poseStack, "Ceci est un poisson d'avril ( sans blague )", 10, 64, -12829636);
-		this.font.draw(poseStack, "Sinon serieux rendez-vous \uFFFD la fermeture de la ", 7, 81, -12829636);
-		this.font.draw(poseStack, "v7.5", 250, 80, -26368);
-		this.font.draw(poseStack, "Pour avoir une surprise ", 7, 92, -12829636);
-		this.font.draw(poseStack, "Ps /palagift pour du bonus", 6, 120, -12829636);
-		this.font.draw(poseStack, "Ps 2 Chercher bien pour les indices", 5, 131, -12829636);
-		this.font.draw(poseStack, "Build 0031", 215, 208, -12829636);
+		this.font.draw(poseStack, "Beta 2 : build T1 0026", 153, 209, -12829636);
+		this.font.draw(poseStack, "l'hotel des vente ou hdv a ete abandonne ", 30, 41, -12829636);
+		this.font.draw(poseStack, "a cause d'un bug de stockage d'item", 30, 52, -12829636);
+		this.font.draw(poseStack, "le projet etant en open- source vous pouvez nous", 5, 86, -12829636);
+		this.font.draw(poseStack, "aider : conctacter les devloppeurs sur github", 8, 96, -12829636);
+		this.font.draw(poseStack, "https://github.com/cbaie9/palamod19", 9, 113, -12829636);
+		this.font.draw(poseStack, "le hdv ses processus ont ete retirer en partie", 6, 136, -65485);
+		this.font.draw(poseStack, "de lag et de compilation ( code trop long )", 7, 145, -65485);
 	}
 
 	@Override
@@ -96,17 +94,10 @@ public class WipguiScreen extends AbstractContainerScreen<WipguiMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(
-				new Button(this.leftPos + 4, this.topPos + 163, 186, 20, Component.literal("continuer pour voir les travaux -)"), e -> {
-					if (true) {
-						PalamodMod.PACKET_HANDLER.sendToServer(new WipguiButtonMessage(0, x, y, z));
-						WipguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(new Button(this.leftPos + 199, this.topPos + 163, 61, 20, Component.literal("devnote"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 38, this.topPos + 179, 186, 20, Component.literal("acces hdv"), e -> {
 			if (true) {
-				PalamodMod.PACKET_HANDLER.sendToServer(new WipguiButtonMessage(1, x, y, z));
-				WipguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
+				PalamodMod.PACKET_HANDLER.sendToServer(new WipguiButtonMessage(0, x, y, z));
+				WipguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}

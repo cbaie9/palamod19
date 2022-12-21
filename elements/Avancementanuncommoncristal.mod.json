@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "An uncommon cristal",
+    "achievementName": "An uncommon crystal",
     "achievementDescription": "find and smelt an amethyst",
     "achievementIcon": {
       "value": "CUSTOM:Amethyste"

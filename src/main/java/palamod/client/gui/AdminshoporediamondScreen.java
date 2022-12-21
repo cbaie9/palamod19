@@ -81,6 +81,8 @@ public class AdminshoporediamondScreen extends AbstractContainerScreen<Adminshop
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Diamond", 58, 6, -12829636);
 		this.font.draw(poseStack, "Mode set :", 29, 74, -12829636);
+		this.font.draw(poseStack, "Buy price : 40", 36, 25, -12829636);
+		this.font.draw(poseStack, "Sell price : 45", 34, 39, -12829636);
 	}
 
 	@Override

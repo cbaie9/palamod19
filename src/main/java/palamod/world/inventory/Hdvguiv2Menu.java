@@ -39,7 +39,7 @@ public class Hdvguiv2Menu extends AbstractContainerMenu implements Supplier<Map<
 		super(PalamodModMenus.HDVGUIV_2.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(2);
+		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,16 +77,56 @@ public class Hdvguiv2Menu extends AbstractContainerMenu implements Supplier<Map<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 10, 26) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 10, 20) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 156, 28) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 156, 20) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 10, 63) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 156, 63) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 122 + 8 + sj * 18, 37 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, 122 + 8 + si * 18, 37 + 142));
-		HdvguiThisGUIIsOpenedProcedure.execute();
+		HdvguiThisGUIIsOpenedProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -101,16 +141,16 @@ public class Hdvguiv2Menu extends AbstractContainerMenu implements Supplier<Map<
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 2) {
-				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
-				if (index < 2 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

@@ -7,6 +7,7 @@ package palamod.init;
 import palamod.block.XpbushonBlock;
 import palamod.block.XpbushBlock;
 import palamod.block.WoddenspikeBlock;
+import palamod.block.UploaderBlock;
 import palamod.block.TrxiumoreBlock;
 import palamod.block.TrxiumblockBlock;
 import palamod.block.TruetresureBlock;
@@ -307,4 +308,5 @@ public class PalamodModBlocks {
 	public static final RegistryObject<Block> TRIXIUMNBTBLOCK = REGISTRY.register("trixiumnbtblock", () -> new TrixiumnbtblockBlock());
 	public static final RegistryObject<Block> CROWN = REGISTRY.register("crown", () -> new CrownBlock());
 	public static final RegistryObject<Block> FACTIONBLCK = REGISTRY.register("factionblck", () -> new FactionblckBlock());
+	public static final RegistryObject<Block> UPLOADER = REGISTRY.register("uploader", () -> new UploaderBlock());
 }

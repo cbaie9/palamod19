@@ -92,12 +92,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Sell price : 1",
+          "text": "Sell price : 0.5",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Sell price : 1",
+          "name": "Sell price : 0.5",
           "x": 169,
           "y": 58
         }
@@ -105,12 +105,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Buy price : 0.5",
+          "text": "Buy price : 10",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Buy price : 0.5",
+          "name": "Buy price : 10",
           "x": 165,
           "y": 72
         }

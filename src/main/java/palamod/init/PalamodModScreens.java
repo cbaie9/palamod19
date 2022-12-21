@@ -8,6 +8,7 @@ import palamod.client.gui.XpbushpalahelpguienScreen;
 import palamod.client.gui.XpbushpalahelpguiScreen;
 import palamod.client.gui.WipguiScreen;
 import palamod.client.gui.VoidstoneminerconfigScreen;
+import palamod.client.gui.UploaderguiScreen;
 import palamod.client.gui.TrashguiScreen;
 import palamod.client.gui.TemporymarketScreen;
 import palamod.client.gui.StockhdvScreen;
@@ -49,6 +50,7 @@ import palamod.client.gui.LegendarystonepalahelpScreen;
 import palamod.client.gui.LegendarystoneenScreen;
 import palamod.client.gui.LanguageselectionScreen;
 import palamod.client.gui.ItemmenupalahelpScreen;
+import palamod.client.gui.Hdvv3Screen;
 import palamod.client.gui.HdvsellguiScreen;
 import palamod.client.gui.HdvhelpScreen;
 import palamod.client.gui.Hdvguiv2Screen;
@@ -211,6 +213,8 @@ public class PalamodModScreens {
 			MenuScreens.register(PalamodModMenus.ADMINSHOPBLOCKBLACKSTONE.get(), AdminshopblockblackstoneScreen::new);
 			MenuScreens.register(PalamodModMenus.ADMINSHOPBLOCKOAKWOOD.get(), AdminshopblockoakwoodScreen::new);
 			MenuScreens.register(PalamodModMenus.ADMINSHOPBLOCK_GLOWSTONE.get(), AdminshopblockGlowstoneScreen::new);
+			MenuScreens.register(PalamodModMenus.UPLOADERGUI.get(), UploaderguiScreen::new);
+			MenuScreens.register(PalamodModMenus.HDVV_3.get(), Hdvv3Screen::new);
 		});
 	}
 }

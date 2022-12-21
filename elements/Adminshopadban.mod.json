@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 350,
+    "width": 130,
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -13,80 +13,54 @@
       {
         "type": "label",
         "data": {
-          "text": "L'admininshop a été abandonné",
+          "text": "Work in progress",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "L'admininshop a été abandonné",
-          "x": 139,
-          "y": 47
+          "name": "Work in progress",
+          "x": 174,
+          "y": 43
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "a cause du bug du non- fonctionnement",
+          "text": "may Crash",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "a cause du bug du non- fonctionnement",
-          "x": 125,
-          "y": 59
+          "name": "may Crash",
+          "x": 188,
+          "y": 57
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "du  /hdv",
+          "text": "v_u1",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "du  /hdv",
-          "x": 126,
-          "y": 71
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Si vous trouvez le bug https://github.com/cbaie9/palamod19",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Si vous trouvez le bug https://github.com/cbaie9/palamod19",
-          "x": 65,
-          "y": 101
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Vous pouvez me le report en mp ou sur le serveur discord",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Vous pouvez me le report en mp ou sur le serveur discord",
-          "x": 64,
-          "y": 112
+          "name": "v_u1",
+          "x": 248,
+          "y": 159
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "Accèder a l'alpha de l'adminshop",
+          "text": "beta adminshop",
           "onClick": {
             "name": "Adminshop_open"
           },
-          "width": 192,
+          "width": 98,
           "height": 20,
-          "name": "Accèder a l'alpha de l'adminshop",
-          "x": 124,
-          "y": 171
+          "name": "beta adminshop",
+          "x": 165,
+          "y": 176
         }
       }
     ],
