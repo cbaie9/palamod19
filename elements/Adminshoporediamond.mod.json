@@ -88,6 +88,32 @@
           "x": 133,
           "y": 176
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buy price : 40",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Buy price : 40",
+          "x": 162,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sell price : 45",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sell price : 45",
+          "x": 160,
+          "y": 76
+        }
       }
     ],
     "gridSettings": {

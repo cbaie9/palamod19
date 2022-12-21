@@ -1,7 +1,7 @@
 
 package palamod.command;
 
-import palamod.procedures.Optihdv3Procedure;
+import palamod.procedures.Optihdvv4Procedure;
 
 import org.checkerframework.checker.units.qual.s;
 
@@ -41,7 +41,7 @@ public class OptihdvCommand {
 						index++;
 					}
 
-					Optihdv3Procedure.execute(world);
+					Optihdvv4Procedure.execute(world);
 					return 0;
 				})).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
@@ -60,7 +60,7 @@ public class OptihdvCommand {
 						index++;
 					}
 
-					Optihdv3Procedure.execute(world);
+					Optihdvv4Procedure.execute(world);
 					return 0;
 				}));
 	}

@@ -1,22 +1,4 @@
 {
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2022-11-20 17:32:01 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2022-11-20 17:32:01 +0100"
-    },
-    "done": true
-  },
-  "palamod:avancementforgeafa": {
-    "criteria": {
-      "avancementforgeafa": "2022-11-20 17:34:19 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-11-20 17:32:01 +0100"
@@ -35,13 +17,79 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2022-11-20 17:32:01 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-12-12 21:26:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2022-12-13 18:46:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-12-13 18:46:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-12-11 16:56:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2022-12-13 18:46:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 17:32:01 +0100"
+    },
+    "done": true
+  },
+  "palamod:avancementforgeafa": {
+    "criteria": {
+      "avancementforgeafa": "2022-11-20 17:34:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-12-08 22:33:08 +0100"
+    },
+    "done": true
+  },
+  "palamod:avancementanshinyredingot": {
+    "criteria": {
+      "avancementanshinyredingot": "2022-12-11 16:57:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-12-13 18:46:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-11-20 17:32:01 +0100"
     },
@@ -62,8 +110,24 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2022-11-20 17:32:22 +0100",
+      "minecraft:birch_forest": "2022-12-12 21:26:54 +0100",
       "minecraft:river": "2022-11-20 17:32:05 +0100",
-      "minecraft:forest": "2022-11-20 17:26:34 +0100"
+      "minecraft:dripstone_caves": "2022-12-13 19:39:58 +0100",
+      "minecraft:forest": "2022-11-20 17:26:34 +0100",
+      "minecraft:meadow": "2022-12-12 21:26:19 +0100",
+      "minecraft:plains": "2022-12-10 16:11:58 +0100"
+    },
+    "done": false
+  },
+  "palamod:avancementcoreloading": {
+    "criteria": {
+      "avancementcoreloading": "2022-12-11 16:56:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2022-12-13 18:46:13 +0100"
     },
     "done": false
   },

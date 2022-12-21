@@ -3,7 +3,6 @@ package palamod.network;
 
 import palamod.world.inventory.WipguiMenu;
 
-import palamod.procedures.StatusCommandExecutedProcedure;
 import palamod.procedures.Hdv_openProcedure;
 
 import palamod.PalamodMod;
@@ -68,10 +67,6 @@ public class WipguiButtonMessage {
 		if (buttonID == 0) {
 
 			Hdv_openProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 1) {
-
-			StatusCommandExecutedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

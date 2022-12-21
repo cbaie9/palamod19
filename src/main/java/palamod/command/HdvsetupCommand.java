@@ -1,7 +1,10 @@
 
 package palamod.command;
 
+import palamod.procedures.LunchallsetupProcedure;
 import palamod.procedures.Hdvsetup_processProcedure;
+import palamod.procedures.FactionsetupProcedure;
+import palamod.procedures.AdminshoppricesetupProcedure;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,17 +16,13 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
-import java.util.HashMap;
-
-import com.mojang.brigadier.arguments.StringArgumentType;
-
 @Mod.EventBusSubscriber
 public class HdvsetupCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher().register(Commands.literal("$setup")
 
-				.then(Commands.literal("hdv").then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(arguments -> {
+				.then(Commands.literal("hdv").executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
@@ -32,17 +31,10 @@ public class HdvsetupCommand {
 					if (entity == null)
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getDirection();
-					HashMap<String, String> cmdparams = new HashMap<>();
-					int index = -1;
-					for (String param : arguments.getInput().split("\\s+")) {
-						if (index >= 0)
-							cmdparams.put(Integer.toString(index), param);
-						index++;
-					}
 
 					Hdvsetup_processProcedure.execute(world);
 					return 0;
-				})).executes(arguments -> {
+				})).then(Commands.literal("adminshop").executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
@@ -51,15 +43,32 @@ public class HdvsetupCommand {
 					if (entity == null)
 						entity = FakePlayerFactory.getMinecraft(world);
 					Direction direction = entity.getDirection();
-					HashMap<String, String> cmdparams = new HashMap<>();
-					int index = -1;
-					for (String param : arguments.getInput().split("\\s+")) {
-						if (index >= 0)
-							cmdparams.put(Integer.toString(index), param);
-						index++;
-					}
 
-					Hdvsetup_processProcedure.execute(world);
+					AdminshoppricesetupProcedure.execute(world, x, y, z);
+					return 0;
+				})).then(Commands.literal("faction").executes(arguments -> {
+					ServerLevel world = arguments.getSource().getLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null)
+						entity = FakePlayerFactory.getMinecraft(world);
+					Direction direction = entity.getDirection();
+
+					FactionsetupProcedure.execute(world);
+					return 0;
+				})).then(Commands.literal("all").executes(arguments -> {
+					ServerLevel world = arguments.getSource().getLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null)
+						entity = FakePlayerFactory.getMinecraft(world);
+					Direction direction = entity.getDirection();
+
+					LunchallsetupProcedure.execute(world, x, y, z);
 					return 0;
 				})));
 	}

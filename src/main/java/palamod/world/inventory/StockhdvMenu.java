@@ -37,7 +37,7 @@ public class StockhdvMenu extends AbstractContainerMenu implements Supplier<Map<
 		super(PalamodModMenus.STOCKHDV.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(69);
+		this.internal = new ItemStackHandler(92);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -213,6 +213,52 @@ public class StockhdvMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		this.customSlots.put(68, this.addSlot(new SlotItemHandler(internal, 68, 399, 71) {
 		}));
+		this.customSlots.put(69, this.addSlot(new SlotItemHandler(internal, 69, 3, 98) {
+		}));
+		this.customSlots.put(70, this.addSlot(new SlotItemHandler(internal, 70, 21, 98) {
+		}));
+		this.customSlots.put(71, this.addSlot(new SlotItemHandler(internal, 71, 39, 98) {
+		}));
+		this.customSlots.put(72, this.addSlot(new SlotItemHandler(internal, 72, 57, 98) {
+		}));
+		this.customSlots.put(73, this.addSlot(new SlotItemHandler(internal, 73, 75, 98) {
+		}));
+		this.customSlots.put(74, this.addSlot(new SlotItemHandler(internal, 74, 93, 98) {
+		}));
+		this.customSlots.put(75, this.addSlot(new SlotItemHandler(internal, 75, 111, 98) {
+		}));
+		this.customSlots.put(76, this.addSlot(new SlotItemHandler(internal, 76, 129, 98) {
+		}));
+		this.customSlots.put(77, this.addSlot(new SlotItemHandler(internal, 77, 147, 98) {
+		}));
+		this.customSlots.put(78, this.addSlot(new SlotItemHandler(internal, 78, 165, 98) {
+		}));
+		this.customSlots.put(79, this.addSlot(new SlotItemHandler(internal, 79, 183, 98) {
+		}));
+		this.customSlots.put(80, this.addSlot(new SlotItemHandler(internal, 80, 201, 98) {
+		}));
+		this.customSlots.put(81, this.addSlot(new SlotItemHandler(internal, 81, 219, 98) {
+		}));
+		this.customSlots.put(82, this.addSlot(new SlotItemHandler(internal, 82, 237, 98) {
+		}));
+		this.customSlots.put(83, this.addSlot(new SlotItemHandler(internal, 83, 255, 98) {
+		}));
+		this.customSlots.put(84, this.addSlot(new SlotItemHandler(internal, 84, 273, 98) {
+		}));
+		this.customSlots.put(85, this.addSlot(new SlotItemHandler(internal, 85, 291, 98) {
+		}));
+		this.customSlots.put(86, this.addSlot(new SlotItemHandler(internal, 86, 309, 98) {
+		}));
+		this.customSlots.put(87, this.addSlot(new SlotItemHandler(internal, 87, 327, 98) {
+		}));
+		this.customSlots.put(88, this.addSlot(new SlotItemHandler(internal, 88, 345, 98) {
+		}));
+		this.customSlots.put(89, this.addSlot(new SlotItemHandler(internal, 89, 363, 98) {
+		}));
+		this.customSlots.put(90, this.addSlot(new SlotItemHandler(internal, 90, 381, 98) {
+		}));
+		this.customSlots.put(91, this.addSlot(new SlotItemHandler(internal, 91, 399, 98) {
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 244 + 8 + sj * 18, 72 + 84 + si * 18));
@@ -232,16 +278,16 @@ public class StockhdvMenu extends AbstractContainerMenu implements Supplier<Map<
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 69) {
-				if (!this.moveItemStackTo(itemstack1, 69, this.slots.size(), true))
+			if (index < 92) {
+				if (!this.moveItemStackTo(itemstack1, 92, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 69, false)) {
-				if (index < 69 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 69 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 92, false)) {
+				if (index < 92 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 92 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 69, 69 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 92, 92 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

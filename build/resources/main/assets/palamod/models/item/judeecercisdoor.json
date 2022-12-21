@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "palamod:blocks/judeecercis_door_down_beta"
+    "layer0": "palamod:items/item_door_cerise"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }

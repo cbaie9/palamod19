@@ -90,7 +90,7 @@ public class HdvguiMenu extends AbstractContainerMenu implements Supplier<Map<In
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 62 + 8 + sj * 18, 229 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, 62 + 8 + si * 18, 229 + 142));
-		HdvguiThisGUIIsOpenedProcedure.execute();
+		HdvguiThisGUIIsOpenedProcedure.execute(world, entity);
 	}
 
 	@Override

@@ -4,6 +4,7 @@
  */
 package palamod.init;
 
+import palamod.block.entity.UploaderBlockEntity;
 import palamod.block.entity.Tcv2BlockEntity;
 import palamod.block.entity.PaladiummachineBlockEntity;
 import palamod.block.entity.PaladiumfurnaceonBlockEntity;
@@ -47,6 +48,7 @@ public class PalamodModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> NBTBLOCK = register("nbtblock", PalamodModBlocks.NBTBLOCK, NbtblockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PALADIUMFURNACEON = register("paladiumfurnaceon", PalamodModBlocks.PALADIUMFURNACEON,
 			PaladiumfurnaceonBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> UPLOADER = register("uploader", PalamodModBlocks.UPLOADER, UploaderBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

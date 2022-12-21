@@ -34,7 +34,7 @@ public class AdminshopadbanScreen extends AbstractContainerScreen<Adminshopadban
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 350;
+		this.imageWidth = 130;
 		this.imageHeight = 166;
 	}
 
@@ -73,11 +73,9 @@ public class AdminshopadbanScreen extends AbstractContainerScreen<Adminshopadban
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "L'admininshop a \u00E9t\u00E9 abandonn\u00E9", 100, 10, -12829636);
-		this.font.draw(poseStack, "a cause du bug du non- fonctionnement", 86, 22, -12829636);
-		this.font.draw(poseStack, "du  /hdv", 87, 34, -12829636);
-		this.font.draw(poseStack, "Si vous trouvez le bug https://github.com/cbaie9/palamod19", 26, 64, -12829636);
-		this.font.draw(poseStack, "Vous pouvez me le report en mp ou sur le serveur discord", 25, 75, -12829636);
+		this.font.draw(poseStack, "Work in progress", 25, 6, -12829636);
+		this.font.draw(poseStack, "may Crash", 39, 20, -12829636);
+		this.font.draw(poseStack, "v_u1", 99, 122, -12829636);
 	}
 
 	@Override
@@ -90,12 +88,11 @@ public class AdminshopadbanScreen extends AbstractContainerScreen<Adminshopadban
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(
-				new Button(this.leftPos + 85, this.topPos + 134, 192, 20, Component.literal("Accèder a l'alpha de l'adminshop"), e -> {
-					if (true) {
-						PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopadbanButtonMessage(0, x, y, z));
-						AdminshopadbanButtonMessage.handleButtonAction(entity, 0, x, y, z);
-					}
-				}));
+		this.addRenderableWidget(new Button(this.leftPos + 16, this.topPos + 139, 98, 20, Component.literal("beta adminshop"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshopadbanButtonMessage(0, x, y, z));
+				AdminshopadbanButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

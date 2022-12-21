@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_concrete"
+    },
+    "1": {
+      "item": "palamod:titanestick"
+    },
+    "2": {
+      "item": "minecraft:black_concrete"
+    },
+    "3": {
+      "item": "palamod:titanestick"
+    },
+    "4": {
+      "item": "palamod:internetcard"
+    },
+    "5": {
+      "item": "palamod:titanestick"
+    },
+    "6": {
+      "item": "minecraft:black_concrete"
+    },
+    "7": {
+      "item": "palamod:titanestick"
+    },
+    "8": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "palamod:uploader",
+    "count": 1
+  }
+}

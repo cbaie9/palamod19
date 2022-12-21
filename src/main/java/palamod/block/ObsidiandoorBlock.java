@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class ObsidiandoorBlock extends DoorBlock {
 	public ObsidiandoorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(10f).requiresCorrectToolForDrops().noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 

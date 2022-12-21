@@ -182,6 +182,10 @@ public class PalamodModVariables {
 		public double market_conf_num = 0.0;
 		public double market_conf_price = 0.0;
 		public String coor_spawn = "";
+		public double hdv_price1 = 0;
+		public double hdv_price2 = 0;
+		public double hdv_price3 = 0;
+		public double hdv_price4 = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -194,6 +198,10 @@ public class PalamodModVariables {
 			market_conf_num = nbt.getDouble("market_conf_num");
 			market_conf_price = nbt.getDouble("market_conf_price");
 			coor_spawn = nbt.getString("coor_spawn");
+			hdv_price1 = nbt.getDouble("hdv_price1");
+			hdv_price2 = nbt.getDouble("hdv_price2");
+			hdv_price3 = nbt.getDouble("hdv_price3");
+			hdv_price4 = nbt.getDouble("hdv_price4");
 		}
 
 		@Override
@@ -202,6 +210,10 @@ public class PalamodModVariables {
 			nbt.putDouble("market_conf_num", market_conf_num);
 			nbt.putDouble("market_conf_price", market_conf_price);
 			nbt.putString("coor_spawn", coor_spawn);
+			nbt.putDouble("hdv_price1", hdv_price1);
+			nbt.putDouble("hdv_price2", hdv_price2);
+			nbt.putDouble("hdv_price3", hdv_price3);
+			nbt.putDouble("hdv_price4", hdv_price4);
 			return nbt;
 		}
 

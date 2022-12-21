@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Hdv v2 build 0082",
+          "text": "Hdv v2 build 170038",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Hdv v2 build 0082",
+          "name": "Hdv v2 build 170038",
           "x": 69,
           "y": 26
         }
@@ -30,11 +30,11 @@
             "value": ""
           },
           "id": 0,
-          "disableStackInteraction": false,
+          "disableStackInteraction": true,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 73,
-          "y": 45
+          "y": 39
         }
       },
       {
@@ -57,8 +57,8 @@
           "width": 61,
           "height": 20,
           "name": "Acheter",
-          "x": 74,
-          "y": 72
+          "x": 73,
+          "y": 60
         }
       },
       {
@@ -68,11 +68,11 @@
             "value": ""
           },
           "id": 1,
-          "disableStackInteraction": false,
+          "disableStackInteraction": true,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 219,
-          "y": 47
+          "y": 39
         }
       },
       {
@@ -85,8 +85,8 @@
           "width": 61,
           "height": 20,
           "name": "Acheter",
-          "x": 218,
-          "y": 72
+          "x": 217,
+          "y": 59
         }
       },
       {
@@ -137,6 +137,108 @@
           "name": "Aide",
           "x": 132,
           "y": 151
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 73,
+          "y": 82
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 219,
+          "y": 82
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "acheter",
+          "width": 61,
+          "height": 20,
+          "name": "acheter",
+          "x": 73,
+          "y": 101
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "acheter",
+          "width": 61,
+          "height": 20,
+          "name": "acheter",
+          "x": 217,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:hdv_price1>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:hdv_price1>",
+          "x": 95,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:hdv_price2>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:hdv_price2>",
+          "x": 92,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:hdv_price3>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:hdv_price3>",
+          "x": 240,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:hdv_price4>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:hdv_price4>",
+          "x": 237,
+          "y": 86
         }
       }
     ],

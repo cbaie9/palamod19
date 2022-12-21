@@ -30,12 +30,12 @@ public class Hdv_openProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _player)
-			_player.closeContainer();
 		if (!((world.getBlockState(new BlockPos(0, 10, 0))).getBlock() == PalamodModBlocks.NBTBLOCK.get())) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "$hdv_setup");
+						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "$setup hdv");
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal("1"), (false));
 		} else if ((new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -46,7 +46,7 @@ public class Hdv_openProcedure {
 		}.getValue(world, new BlockPos(0, 10, 0), "hdv_locked")) == false) {
 			{
 				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = new BlockPos(x, y, z);
+					BlockPos _bpos = new BlockPos(0, 10, 0);
 					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
@@ -60,6 +60,8 @@ public class Hdv_openProcedure {
 					}, _bpos);
 				}
 			}
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal("2"), (false));
 		} else {
 			{
 				if (entity instanceof ServerPlayer _ent) {
@@ -77,6 +79,8 @@ public class Hdv_openProcedure {
 					}, _bpos);
 				}
 			}
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal("3"), (false));
 		}
 	}
 }

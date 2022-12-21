@@ -120,7 +120,7 @@ public class AdminshoporefindiumScreen extends AbstractContainerScreen<Adminshop
 		guistate.put("text:number_buy", number_buy);
 		number_buy.setMaxLength(32767);
 		this.addWidget(this.number_buy);
-		this.addRenderableWidget(new Button(this.leftPos + 24, this.topPos + 106, 40, 20, Component.literal("buy"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 24, this.topPos + 108, 40, 20, Component.literal("buy"), e -> {
 			if (true) {
 				PalamodMod.PACKET_HANDLER.sendToServer(new AdminshoporefindiumButtonMessage(0, x, y, z));
 				AdminshoporefindiumButtonMessage.handleButtonAction(entity, 0, x, y, z);

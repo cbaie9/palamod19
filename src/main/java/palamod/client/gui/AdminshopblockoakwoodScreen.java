@@ -81,8 +81,8 @@ public class AdminshopblockoakwoodScreen extends AbstractContainerScreen<Adminsh
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Oak wood", 58, 6, -12829636);
 		this.font.draw(poseStack, "Mode set :", 29, 74, -12829636);
-		this.font.draw(poseStack, "Sell price : 1", 43, 21, -12829636);
-		this.font.draw(poseStack, "Buy price : 0.5", 39, 35, -12829636);
+		this.font.draw(poseStack, "Sell price : 0.5", 43, 21, -12829636);
+		this.font.draw(poseStack, "Buy price : 10", 39, 35, -12829636);
 	}
 
 	@Override

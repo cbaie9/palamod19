@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "amethyst",
+          "text": "Amethyst",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "amethyst",
+          "name": "Amethyst",
           "x": 184,
           "y": 43
         }

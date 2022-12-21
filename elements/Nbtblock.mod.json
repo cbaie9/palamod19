@@ -109,7 +109,7 @@
     "hasInventory": true,
     "guiBoundTo": "Stockhdv",
     "openGUIOnRightClick": false,
-    "inventorySize": 69,
+    "inventorySize": 92,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

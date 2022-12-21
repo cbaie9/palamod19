@@ -1,9 +1,0 @@
-{
-  "_fv": 34,
-  "_type": "command",
-  "definition": {
-    "commandName": "gm3",
-    "permissionLevel": "2",
-    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">Gamemode3changeCommandExecuted</field></block></next></block></xml>"
-  }
-}

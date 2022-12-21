@@ -108,6 +108,7 @@ import palamod.item.KiwanoItem;
 import palamod.item.JumpstickItem;
 import palamod.item.JumporbItem;
 import palamod.item.InvisiblearmorItem;
+import palamod.item.InternetcardItem;
 import palamod.item.IngotpaternItem;
 import palamod.item.InfernalknockerItem;
 import palamod.item.HyperjumpstickItem;
@@ -609,6 +610,8 @@ public class PalamodModItems {
 			() -> new Paladiumarmorcustom3Item.Leggings());
 	public static final RegistryObject<Item> PALADIUMARMORCUSTOM_3_BOOTS = REGISTRY.register("paladiumarmorcustom_3_boots",
 			() -> new Paladiumarmorcustom3Item.Boots());
+	public static final RegistryObject<Item> UPLOADER = block(PalamodModBlocks.UPLOADER, PalamodModTabs.TAB_PALAMOD);
+	public static final RegistryObject<Item> INTERNETCARD = REGISTRY.register("internetcard", () -> new InternetcardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
