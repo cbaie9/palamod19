@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "diamondstring",
+    "texture": "diamond_st2",
     "customModelName": "Normal",
     "name": "Diamond string",
     "rarity": "COMMON",
@@ -32,6 +32,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

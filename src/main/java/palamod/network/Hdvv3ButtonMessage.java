@@ -70,15 +70,15 @@ public class Hdvv3ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			HdvbuyProcedure.execute(world, x, y, z, entity);
+			HdvbuyProcedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 1) {
 
-			Hdvbuy1Procedure.execute(world, x, y, z, entity);
+			Hdvbuy1Procedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 2) {
 
-			Hdvbuy2Procedure.execute(world, x, y, z, entity);
+			Hdvbuy2Procedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 3) {
 

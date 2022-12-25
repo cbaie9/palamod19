@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/broadsword_gpala"
+    "layer0": "palamod:items/green_paladium_broadsword"
   }
 }

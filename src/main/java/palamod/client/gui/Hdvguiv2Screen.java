@@ -85,10 +85,10 @@ public class Hdvguiv2Screen extends AbstractContainerScreen<Hdvguiv2Menu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Hdv v2 build 170038", 5, 6, -12829636);
-		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price1) + "", 31, 21, -12829636);
-		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price2) + "", 28, 63, -12829636);
-		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price3) + "", 176, 19, -12829636);
-		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price4) + "", 173, 66, -12829636);
+		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price1) + " $", 31, 21, -12829636);
+		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price2) + " $", 28, 63, -12829636);
+		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price3) + " $", 176, 19, -12829636);
+		this.font.draw(poseStack, "" + (int) (PalamodModVariables.MapVariables.get(world).hdv_price4) + " $", 173, 66, -12829636);
 	}
 
 	@Override
@@ -154,8 +154,16 @@ public class Hdvguiv2Screen extends AbstractContainerScreen<Hdvguiv2Menu> {
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 81, 61, 20, Component.literal("acheter"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new Hdvguiv2ButtonMessage(5, x, y, z));
+				Hdvguiv2ButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 153, this.topPos + 81, 61, 20, Component.literal("acheter"), e -> {
+			if (true) {
+				PalamodMod.PACKET_HANDLER.sendToServer(new Hdvguiv2ButtonMessage(6, x, y, z));
+				Hdvguiv2ButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		}));
 	}
 }

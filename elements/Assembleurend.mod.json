@@ -59,22 +59,8 @@
           "width": 51,
           "height": 20,
           "name": "trade",
-          "x": 196,
-          "y": 124
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "access",
-          "onClick": {
-            "name": "Openassemtable"
-          },
-          "width": 51,
-          "height": 20,
-          "name": "access",
-          "x": 194,
-          "y": 181
+          "x": 169,
+          "y": 75
         }
       }
     ],

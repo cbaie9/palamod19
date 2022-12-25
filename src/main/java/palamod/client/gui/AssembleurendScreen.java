@@ -88,16 +88,10 @@ public class AssembleurendScreen extends AbstractContainerScreen<AssembleurendMe
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 82, this.topPos + 104, 51, 20, Component.literal("trade"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 55, this.topPos + 55, 51, 20, Component.literal("trade"), e -> {
 			if (true) {
 				PalamodMod.PACKET_HANDLER.sendToServer(new AssembleurendButtonMessage(0, x, y, z));
 				AssembleurendButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}));
-		this.addRenderableWidget(new Button(this.leftPos + 80, this.topPos + 161, 51, 20, Component.literal("access"), e -> {
-			if (true) {
-				PalamodMod.PACKET_HANDLER.sendToServer(new AssembleurendButtonMessage(1, x, y, z));
-				AssembleurendButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
 	}

@@ -29,6 +29,9 @@
     "palamod:erable_slab",
     "palamod:erable_fence",
     "palamod:erable_fence_gate",
-    "palamod:judeecercisdoor"
+    "palamod:judeecercisdoor",
+    "palamod:ostryadoor",
+    "palamod:erabledoor",
+    "palamod:jacarandadoor"
   ]
 }

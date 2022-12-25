@@ -44,7 +44,10 @@ public class PalamodModVariables {
 	public static double g_num = 0;
 	public static double Lucky_destroy = 0;
 	public static String lucky_name = "no";
-	public static String furnace_processing = "\"\"";
+	public static String market_conf_name = "error:0notset";
+	public static double market_conf_num = 0.0;
+	public static double market_conf_price = 0.0;
+	public static String furnace_processing = "-)";
 	public static double Grinder_ingot = 4.0;
 	public static double Golem_level = 0;
 	public static double Golem_usable_point = 0;
@@ -178,9 +181,6 @@ public class PalamodModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "palamod_mapvars";
-		public String market_conf_name = "error:0notset";
-		public double market_conf_num = 0.0;
-		public double market_conf_price = 0.0;
 		public String coor_spawn = "";
 		public double hdv_price1 = 0;
 		public double hdv_price2 = 0;
@@ -194,9 +194,6 @@ public class PalamodModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			market_conf_name = nbt.getString("market_conf_name");
-			market_conf_num = nbt.getDouble("market_conf_num");
-			market_conf_price = nbt.getDouble("market_conf_price");
 			coor_spawn = nbt.getString("coor_spawn");
 			hdv_price1 = nbt.getDouble("hdv_price1");
 			hdv_price2 = nbt.getDouble("hdv_price2");
@@ -206,9 +203,6 @@ public class PalamodModVariables {
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putString("market_conf_name", market_conf_name);
-			nbt.putDouble("market_conf_num", market_conf_num);
-			nbt.putDouble("market_conf_price", market_conf_price);
 			nbt.putString("coor_spawn", coor_spawn);
 			nbt.putDouble("hdv_price1", hdv_price1);
 			nbt.putDouble("hdv_price2", hdv_price2);

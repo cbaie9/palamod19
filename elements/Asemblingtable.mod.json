@@ -106,8 +106,8 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "Asemgui",
+    "hasInventory": false,
+    "guiBoundTo": "Assembleurend",
     "openGUIOnRightClick": true,
     "inventorySize": 10,
     "inventoryStackSize": 64,
@@ -135,9 +135,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Asembling_click_e"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

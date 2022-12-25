@@ -32,8 +32,6 @@
     "palamod:alchimet_1",
     "palamod:asemblingtable",
     "palamod:paladiumfurnace",
-    "palamod:contructedgrinderlayer_1",
-    "palamod:contructedgrinderlayer_2",
     "palamod:obsidiantrapdoor",
     "palamod:obsidiandoor",
     "palamod:compactedobsidian",
@@ -72,6 +70,7 @@
     "palamod:blackluckyblock",
     "palamod:paladiumfurnaceon",
     "palamod:trixiumnbtblock",
-    "palamod:uploader"
+    "palamod:uploader",
+    "palamod:hdvblock"
   ]
 }

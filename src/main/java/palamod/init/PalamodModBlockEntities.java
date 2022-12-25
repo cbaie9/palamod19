@@ -15,7 +15,6 @@ import palamod.block.entity.NbtblockBlockEntity;
 import palamod.block.entity.MegasafechestBlockEntity;
 import palamod.block.entity.LuckyblockBlockEntity;
 import palamod.block.entity.GrinderblockBlockEntity;
-import palamod.block.entity.AsemblingtableBlockEntity;
 
 import palamod.PalamodMod;
 
@@ -30,8 +29,6 @@ public class PalamodModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, PalamodMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> PALADIUMCRUSHER = register("paladiumcrusher", PalamodModBlocks.PALADIUMCRUSHER,
 			PaladiumcrusherBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> ASEMBLINGTABLE = register("asemblingtable", PalamodModBlocks.ASEMBLINGTABLE,
-			AsemblingtableBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PALADIUMFURNACE = register("paladiumfurnace", PalamodModBlocks.PALADIUMFURNACE,
 			PaladiumfurnaceBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PALADIUMFORGE = register("paladiumforge", PalamodModBlocks.PALADIUMFORGE,

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/damagestick"
+    "layer0": "palamod:items/damage_stick"
   }
 }

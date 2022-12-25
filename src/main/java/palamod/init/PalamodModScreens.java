@@ -75,7 +75,6 @@ import palamod.client.gui.CrusherpalahelpguiScreen;
 import palamod.client.gui.CrusherguiScreen;
 import palamod.client.gui.AuthsafeguiScreen;
 import palamod.client.gui.AssembleurendScreen;
-import palamod.client.gui.AsemguiScreen;
 import palamod.client.gui.ArmorpalahelpguiScreen;
 import palamod.client.gui.AnalyserresultScreen;
 import palamod.client.gui.AnalyserloadingScreen;
@@ -122,7 +121,6 @@ public class PalamodModScreens {
 			MenuScreens.register(PalamodModMenus.ALCHEMYCREATORGUI.get(), AlchemycreatorguiScreen::new);
 			MenuScreens.register(PalamodModMenus.PALAHELPGUI_1.get(), Palahelpgui1Screen::new);
 			MenuScreens.register(PalamodModMenus.NEXT_PALAHELPGUI.get(), NextPalahelpguiScreen::new);
-			MenuScreens.register(PalamodModMenus.ASEMGUI.get(), AsemguiScreen::new);
 			MenuScreens.register(PalamodModMenus.PALAHELPBLOCK.get(), PalahelpblockScreen::new);
 			MenuScreens.register(PalamodModMenus.FORGEGUI.get(), ForgeguiScreen::new);
 			MenuScreens.register(PalamodModMenus.PALAHELPORE.get(), PalahelporeScreen::new);

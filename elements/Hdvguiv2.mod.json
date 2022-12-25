@@ -171,6 +171,9 @@
         "type": "button",
         "data": {
           "text": "acheter",
+          "onClick": {
+            "name": "Hdvbuy2"
+          },
           "width": 61,
           "height": 20,
           "name": "acheter",
@@ -182,6 +185,9 @@
         "type": "button",
         "data": {
           "text": "acheter",
+          "onClick": {
+            "name": "Hdvbuy3"
+          },
           "width": 61,
           "height": 20,
           "name": "acheter",
@@ -192,12 +198,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:hdv_price1>",
+          "text": "<VAR:integer:hdv_price1> $",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:hdv_price1>",
+          "name": "<VAR:integer:hdv_price1> $",
           "x": 95,
           "y": 41
         }
@@ -205,12 +211,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:hdv_price2>",
+          "text": "<VAR:integer:hdv_price2> $",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:hdv_price2>",
+          "name": "<VAR:integer:hdv_price2> $",
           "x": 92,
           "y": 83
         }
@@ -218,12 +224,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:hdv_price3>",
+          "text": "<VAR:integer:hdv_price3> $",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:hdv_price3>",
+          "name": "<VAR:integer:hdv_price3> $",
           "x": 240,
           "y": 39
         }
@@ -231,12 +237,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:hdv_price4>",
+          "text": "<VAR:integer:hdv_price4> $",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:hdv_price4>",
+          "name": "<VAR:integer:hdv_price4> $",
           "x": 237,
           "y": 86
         }

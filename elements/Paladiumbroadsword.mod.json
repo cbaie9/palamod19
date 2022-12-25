@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "broadsword_pala",
+    "texture": "paladium_broasword",
     "customModelName": "Normal",
     "name": "Paladium Broadsword",
     "specialInfo": [],

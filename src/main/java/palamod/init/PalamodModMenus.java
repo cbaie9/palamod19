@@ -75,7 +75,6 @@ import palamod.world.inventory.CrusherpalahelpguiMenu;
 import palamod.world.inventory.CrusherguiMenu;
 import palamod.world.inventory.AuthsafeguiMenu;
 import palamod.world.inventory.AssembleurendMenu;
-import palamod.world.inventory.AsemguiMenu;
 import palamod.world.inventory.ArmorpalahelpguiMenu;
 import palamod.world.inventory.AnalyserresultMenu;
 import palamod.world.inventory.AnalyserloadingMenu;
@@ -127,7 +126,6 @@ public class PalamodModMenus {
 			() -> IForgeMenuType.create(Palahelpgui1Menu::new));
 	public static final RegistryObject<MenuType<NextPalahelpguiMenu>> NEXT_PALAHELPGUI = REGISTRY.register("next_palahelpgui",
 			() -> IForgeMenuType.create(NextPalahelpguiMenu::new));
-	public static final RegistryObject<MenuType<AsemguiMenu>> ASEMGUI = REGISTRY.register("asemgui", () -> IForgeMenuType.create(AsemguiMenu::new));
 	public static final RegistryObject<MenuType<PalahelpblockMenu>> PALAHELPBLOCK = REGISTRY.register("palahelpblock",
 			() -> IForgeMenuType.create(PalahelpblockMenu::new));
 	public static final RegistryObject<MenuType<ForgeguiMenu>> FORGEGUI = REGISTRY.register("forgegui",
