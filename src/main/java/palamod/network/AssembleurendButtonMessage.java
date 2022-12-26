@@ -3,7 +3,6 @@ package palamod.network;
 
 import palamod.world.inventory.AssembleurendMenu;
 
-import palamod.procedures.OpenassemtableProcedure;
 import palamod.procedures.AssendtProcedure;
 
 import palamod.PalamodMod;
@@ -68,10 +67,6 @@ public class AssembleurendButtonMessage {
 		if (buttonID == 0) {
 
 			AssendtProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 1) {
-
-			OpenassemtableProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

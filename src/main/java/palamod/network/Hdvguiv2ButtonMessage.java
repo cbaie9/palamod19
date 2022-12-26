@@ -5,6 +5,8 @@ import palamod.world.inventory.Hdvguiv2Menu;
 
 import palamod.procedures.OpenhdvsellProcedure;
 import palamod.procedures.HdvbuyProcedure;
+import palamod.procedures.Hdvbuy3Procedure;
+import palamod.procedures.Hdvbuy2Procedure;
 import palamod.procedures.Hdvbuy1Procedure;
 import palamod.procedures.HdvaideProcedure;
 
@@ -69,11 +71,11 @@ public class Hdvguiv2ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			HdvbuyProcedure.execute(world, x, y, z, entity);
+			HdvbuyProcedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 1) {
 
-			Hdvbuy1Procedure.execute(world, x, y, z, entity);
+			Hdvbuy1Procedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 3) {
 
@@ -82,6 +84,14 @@ public class Hdvguiv2ButtonMessage {
 		if (buttonID == 4) {
 
 			HdvaideProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			Hdvbuy2Procedure.execute(world, x, z, entity);
+		}
+		if (buttonID == 6) {
+
+			Hdvbuy3Procedure.execute(world, x, z, entity);
 		}
 	}
 

@@ -75,7 +75,7 @@ public class HdvguiButtonMessage {
 		}
 		if (buttonID == 2) {
 
-			HdvbuyProcedure.execute(world, x, y, z, entity);
+			HdvbuyProcedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 3) {
 
@@ -83,15 +83,15 @@ public class HdvguiButtonMessage {
 		}
 		if (buttonID == 4) {
 
-			Hdvbuy1Procedure.execute(world, x, y, z, entity);
+			Hdvbuy1Procedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 5) {
 
-			Hdvbuy2Procedure.execute(world, x, y, z, entity);
+			Hdvbuy2Procedure.execute(world, x, z, entity);
 		}
 		if (buttonID == 6) {
 
-			Hdvbuy3Procedure.execute(world, x, y, z, entity);
+			Hdvbuy3Procedure.execute(world, x, z, entity);
 		}
 	}
 

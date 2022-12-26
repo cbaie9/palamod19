@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "obsidianitemdoor",
+    "itemTexture": "obsidian_door",
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",

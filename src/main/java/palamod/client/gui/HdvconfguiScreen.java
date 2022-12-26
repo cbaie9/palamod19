@@ -70,8 +70,8 @@ public class HdvconfguiScreen extends AbstractContainerScreen<HdvconfguiMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Vous allez acheter", 7, 13, -13369600);
-		this.font.draw(poseStack, "" + (PalamodModVariables.MapVariables.get(world).market_conf_name) + "", 109, 14, -16764058);
-		this.font.draw(poseStack, "\u00E0 " + (PalamodModVariables.MapVariables.get(world).market_conf_price) + " $", 6, 26, -13369600);
+		this.font.draw(poseStack, "" + (PalamodModVariables.market_conf_name) + "", 109, 14, -16764058);
+		this.font.draw(poseStack, "\u00E0 " + (PalamodModVariables.market_conf_price) + " $", 6, 26, -13369600);
 		this.font.draw(poseStack, "Cette action est irr\u00E9versible ", 53, 116, -3407821);
 	}
 

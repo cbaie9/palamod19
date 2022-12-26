@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "palamod:blocks/triwium",
-    "particle": "palamod:blocks/triwium"
+    "all": "palamod:blocks/caution",
+    "particle": "palamod:blocks/caution"
   },
   "render_type": "solid"
 }

@@ -3,10 +3,10 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Fuzeiii - On m'appelle Fuze iii",
-    "texture": "fuzeiiirecord",
+    "texture": "disc_fuze",
     "description": "La music de fuze",
     "creativeTab": {
-      "value": "CUSTOM:Grindercreativetab"
+      "value": "CUSTOM:Palamod"
     },
     "specialInfo": [],
     "hasGlow": false,

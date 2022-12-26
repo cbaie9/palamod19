@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "broadsword_gpala",
+    "texture": "green_paladium_broadsword",
     "customModelName": "Normal",
     "name": "Greenpaladiumbroadsword",
     "specialInfo": [],

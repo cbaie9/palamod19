@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "palamod:items/palamixedcoal"
+    "layer0": "palamod:items/palamixed2"
   }
 }

@@ -25,31 +25,20 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 259,
-          "y": 65
+          "y": 60
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "alpha",
+          "text": "Beta",
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "name": "alpha",
-          "x": 271,
+          "name": "Beta",
+          "x": 275,
           "y": 33
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Nom de l'item",
-          "width": 120,
-          "height": 20,
-          "name": "market_name",
-          "x": 127,
-          "y": 45
         }
       },
       {
@@ -59,8 +48,8 @@
           "width": 120,
           "height": 20,
           "name": "market_price",
-          "x": 127,
-          "y": 77
+          "x": 129,
+          "y": 47
         }
       },
       {
@@ -72,21 +61,8 @@
             "falpha": 0.0
           },
           "name": "Prix de vente",
-          "x": 126,
-          "y": 66
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Nom de l'item",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Nom de l'item",
-          "x": 127,
-          "y": 34
+          "x": 129,
+          "y": 36
         }
       },
       {
@@ -98,7 +74,7 @@
             "falpha": 0.0
           },
           "name": "Item",
-          "x": 250,
+          "x": 258,
           "y": 51
         }
       },
@@ -112,8 +88,8 @@
           "width": 56,
           "height": 20,
           "name": "vendre",
-          "x": 131,
-          "y": 103
+          "x": 129,
+          "y": 69
         }
       }
     ],

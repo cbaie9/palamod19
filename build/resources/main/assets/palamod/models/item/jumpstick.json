@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "palamod:items/JumpStick"
+    "layer0": "palamod:items/jump_stick2"
   }
 }

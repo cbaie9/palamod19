@@ -75,7 +75,7 @@ public class HdvsellguiMenu extends AbstractContainerMenu implements Supplier<Ma
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 136, 36) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 136, 31) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

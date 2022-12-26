@@ -27,7 +27,6 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	EditBox market_name;
 	EditBox market_price;
 
 	public HdvsellguiScreen(HdvsellguiMenu container, Inventory inventory, Component text) {
@@ -48,7 +47,6 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
-		market_name.render(ms, mouseX, mouseY, partialTicks);
 		market_price.render(ms, mouseX, mouseY, partialTicks);
 	}
 
@@ -68,8 +66,6 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-		if (market_name.isFocused())
-			return market_name.keyPressed(key, b, c);
 		if (market_price.isFocused())
 			return market_price.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
@@ -78,16 +74,14 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		market_name.tick();
 		market_price.tick();
 	}
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "alpha", 147, 3, -1);
-		this.font.draw(poseStack, "Prix de vente", 2, 36, -1);
-		this.font.draw(poseStack, "Nom de l'item", 3, 4, -1);
-		this.font.draw(poseStack, "Item", 126, 21, -10066330);
+		this.font.draw(poseStack, "Beta", 151, 3, -1);
+		this.font.draw(poseStack, "Prix de vente", 5, 6, -1);
+		this.font.draw(poseStack, "Item", 134, 21, -10066330);
 	}
 
 	@Override
@@ -100,33 +94,7 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		market_name = new EditBox(this.font, this.leftPos + 3, this.topPos + 15, 120, 20, Component.literal("Nom de l'item")) {
-			{
-				setSuggestion("Nom de l'item");
-			}
-
-			@Override
-			public void insertText(String text) {
-				super.insertText(text);
-				if (getValue().isEmpty())
-					setSuggestion("Nom de l'item");
-				else
-					setSuggestion(null);
-			}
-
-			@Override
-			public void moveCursorTo(int pos) {
-				super.moveCursorTo(pos);
-				if (getValue().isEmpty())
-					setSuggestion("Nom de l'item");
-				else
-					setSuggestion(null);
-			}
-		};
-		guistate.put("text:market_name", market_name);
-		market_name.setMaxLength(32767);
-		this.addWidget(this.market_name);
-		market_price = new EditBox(this.font, this.leftPos + 3, this.topPos + 47, 120, 20, Component.literal("prix")) {
+		market_price = new EditBox(this.font, this.leftPos + 5, this.topPos + 17, 120, 20, Component.literal("prix")) {
 			{
 				setSuggestion("prix");
 			}
@@ -152,7 +120,7 @@ public class HdvsellguiScreen extends AbstractContainerScreen<HdvsellguiMenu> {
 		guistate.put("text:market_price", market_price);
 		market_price.setMaxLength(32767);
 		this.addWidget(this.market_price);
-		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 73, 56, 20, Component.literal("vendre"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 5, this.topPos + 39, 56, 20, Component.literal("vendre"), e -> {
 			if (true) {
 				PalamodMod.PACKET_HANDLER.sendToServer(new HdvsellguiButtonMessage(0, x, y, z));
 				HdvsellguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
